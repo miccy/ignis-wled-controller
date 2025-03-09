@@ -34,7 +34,7 @@ Tento Kodex chování platí jak v prostorech projektu, tak i ve veřejných pro
 
 ## Vymáhání
 
-Případy zneužívajícího, obtěžujícího nebo jinak nepřijatelného chování lze nahlásit kontaktováním týmu projektu na [your-email@example.com]. Všechny stížnosti budou přezkoumány a vyšetřeny a jejich výsledkem bude reakce, která je považována za nezbytnou a odpovídající okolnostem. Projektový tým je povinen zachovávat důvěrnost s ohledem na reportéra incidentu. Další podrobnosti o konkrétních zásadách vymáhání mohou být zveřejněny samostatně.
+Případy zneužívajícího, obtěžujícího nebo jinak nepřijatelného chování lze nahlásit kontaktováním týmu projektu na [support@miccy.dev]. Všechny stížnosti budou přezkoumány a vyšetřeny a jejich výsledkem bude reakce, která je považována za nezbytnou a odpovídající okolnostem. Projektový tým je povinen zachovávat důvěrnost s ohledem na reportéra incidentu. Další podrobnosti o konkrétních zásadách vymáhání mohou být zveřejněny samostatně.
 
 Správci projektu, kteří nedodržují nebo nevymáhají Kodex chování v dobré víře, mohou čelit dočasným nebo trvalým následkům určeným ostatními členy vedení projektu.
 
