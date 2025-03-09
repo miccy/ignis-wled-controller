@@ -77,22 +77,22 @@ nx test expo-app
 
 ## License
 
-- **Expo React Native app**: [MIT License](LICENSE)
+- **Expo React Native app**: [MIT License](../../LICENSE)
 - **WLED library**: [EUPL-1.2](https://github.com/wled/WLED/blob/main/LICENSE)
 - **Other implementations**: See respective repositories
 
 ## Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+Contributions are welcome! Please read [CONTRIBUTING.md](../../CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## Documentation
 
-- [English Documentation](docs/en/README.md)
-- [Czech Documentation](docs/cs/README.md)
-- [Development Notes](docs/TODO.md)
+- [English Documentation](../en/README.md)
+- [Czech Documentation](../cs/README.md)
+- [Development Notes](../TODO.md)
 
 ## Acknowledgments
 
 - Authors of the original WLED library
 - Creators of the native iOS and Android implementations
-- Expo React Native community
+- Expo React Native community 
