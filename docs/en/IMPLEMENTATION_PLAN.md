@@ -30,8 +30,8 @@
 
 - [ ] **Project Structure**
   - [x] Create `/apps` directory for native apps
-    - [ ] iOS app directory
-    - [ ] Android app directory
+    - [x] iOS app directory
+    - [x] Android app directory
   - [x] Create `/packages` directory for JS/TS code
     - [ ] Expo app 
     - [ ] Shared libraries
@@ -42,10 +42,10 @@
 
 ## Phase 2: Experimenting with Existing Implementations
 
-- [ ] **Native App Integration**
-  - [ ] Copy iOS implementation to `/apps/ios-native`
-  - [ ] Copy Android implementation to `/apps/android-native`
-  - [ ] Document findings in `docs/native-apps-research.md`
+- [x] **Native App Integration**
+  - [x] Copy iOS implementation to `/apps/ios-native`
+  - [x] Copy Android implementation to `/apps/android-native`
+  - [x] Document findings in README files within native app directories
   ```bash
   # Copy iOS implementation
   cp -r /path/to/WLED-Native-iOS apps/ios-native

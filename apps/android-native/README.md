@@ -1,3 +1,23 @@
+# WLED Android Native App
+
+## Usage Note
+
+This Android application is part of the Ignis WLED Controller project for **testing and research purposes only**. It has been added as a reference to understand the functioning of the WLED library and communication protocol.
+
+**This application will not be further developed within this project.** Instead, we are developing our own multiplatform implementation using Expo React Native, which will be available in the `/packages/expo-app` directory.
+
+## Origin
+
+This application is a copy of [WLED-native-android](https://github.com/Aircoookie/WLED-native-android) created by the original author of the WLED project. It has been added to this repository without Git history.
+
+## License
+
+The original application is licensed under the [MIT license](https://github.com/Aircoookie/WLED-native-android/blob/master/LICENSE).
+
+## Acknowledgements
+
+We thank [Aircoookie](https://github.com/Aircoookie) and all contributors to the original WLED project and native Android application for their excellent work, which has allowed us to better understand the WLED ecosystem.
+
 <a href='https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid&utm_source=github&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height='80'/></a>
 
 # WLED-Native-Android

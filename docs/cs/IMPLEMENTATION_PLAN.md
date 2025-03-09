@@ -30,8 +30,8 @@
 
 - [ ] **Struktura projektu**
   - [x] Vytvořit adresář `/apps` pro nativní aplikace
-    - [ ] Adresář pro iOS aplikaci
-    - [ ] Adresář pro Android aplikaci
+    - [x] Adresář pro iOS aplikaci
+    - [x] Adresář pro Android aplikaci
   - [x] Vytvořit adresář `/packages` pro JS/TS kód
     - [ ] Expo aplikace
     - [ ] Sdílené knihovny
@@ -42,10 +42,10 @@
 
 ## Fáze 2: Experimenty s existujícími implementacemi
 
-- [ ] **Integrace nativních aplikací**
-  - [ ] Zkopírovat iOS implementaci do `/apps/ios-native`
-  - [ ] Zkopírovat Android implementaci do `/apps/android-native`
-  - [ ] Zdokumentovat poznatky do `docs/native-apps-research.md`
+- [x] **Integrace nativních aplikací**
+  - [x] Zkopírovat iOS implementaci do `/apps/ios-native`
+  - [x] Zkopírovat Android implementaci do `/apps/android-native`
+  - [x] Zdokumentovat poznatky v README souborech v adresářích nativních aplikací
   ```bash
   # Zkopírovat iOS implementaci
   cp -r /cesta/k/WLED-Native-iOS apps/ios-native
