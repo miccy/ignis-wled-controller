@@ -29,11 +29,11 @@
   ```
 
 - [ ] **Struktura projektu**
-  - [x] Vytvořit adresář `/apps` pro nativní aplikace
+  - [x] Vytvořit adresář `/apps` pro aplikace
     - [x] Adresář pro iOS aplikaci
     - [x] Adresář pro Android aplikaci
-  - [x] Vytvořit adresář `/packages` pro JS/TS kód
-    - [ ] Expo aplikace
+    - [ ] Adresář pro Expo aplikaci
+  - [x] Vytvořit adresář `/packages` pro sdílený JS/TS kód
     - [ ] Sdílené knihovny
   - [x] Vytvořit adresář `/external` pro submoduly
   - [x] Vytvořit vícejazyčnou strukturu dokumentace
@@ -64,7 +64,7 @@
 - [ ] **Vytvořit základní strukturu Expo aplikace**
   - [ ] Vytvořit Expo aplikaci
   ```bash
-  bunx create-expo-app@latest packages/expo-app
+  bunx create-expo-app@latest apps/expo-app
   ```
   - [ ] Nastavit TypeScript konfiguraci
   - [ ] Nakonfigurovat navigační strukturu

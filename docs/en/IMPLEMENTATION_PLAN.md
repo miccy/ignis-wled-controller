@@ -29,11 +29,11 @@
   ```
 
 - [ ] **Project Structure**
-  - [x] Create `/apps` directory for native apps
+  - [x] Create `/apps` directory for applications
     - [x] iOS app directory
     - [x] Android app directory
-  - [x] Create `/packages` directory for JS/TS code
-    - [ ] Expo app 
+    - [ ] Expo app directory
+  - [x] Create `/packages` directory for shared JS/TS code
     - [ ] Shared libraries
   - [x] Create `/external` directory for submodules
   - [x] Create multilingual documentation structure
@@ -64,7 +64,7 @@
 - [ ] **Create Basic Expo App Structure**
   - [ ] Create Expo app
   ```bash
-  bunx create-expo-app@latest packages/expo-app
+  bunx create-expo-app@latest apps/expo-app
   ```
   - [ ] Set up TypeScript configuration
   - [ ] Configure navigation structure

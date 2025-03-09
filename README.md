@@ -12,11 +12,11 @@ A comprehensive toolkit for controlling juggling light toys using the WLED libra
 
 ```
 ignis-wled-controller/
-├── apps/                 # Native application code
+├── apps/                 # Application code
 │   ├── ios-native/       # iOS implementation (for experiments)
-│   └── android-native/   # Android implementation (for experiments)
-├── packages/             # JavaScript/TypeScript packages
-│   ├── expo-app/         # Expo React Native application
+│   ├── android-native/   # Android implementation (for experiments)
+│   └── expo-app/         # Expo React Native application
+├── packages/             # JavaScript/TypeScript shared packages
 │   └── shared/           # Shared components and utilities
 ├── external/             # External submodules
 │   └── wled/             # WLED library as a submodule
@@ -89,7 +89,6 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for de
 
 - [English Documentation](docs/en/README.md)
 - [Czech Documentation](docs/cs/README.md)
-- [Development Notes](docs/TODO.md)
 
 ## Acknowledgments
 

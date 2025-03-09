@@ -4,7 +4,7 @@
 
 This iOS application is part of the Ignis WLED Controller project for **testing and research purposes only**. It has been added as a reference to understand the functioning of the WLED library and communication protocol.
 
-**This application will not be further developed within this project.** Instead, we are developing our own multiplatform implementation using Expo React Native, which will be available in the `/packages/expo-app` directory.
+**This application will not be further developed within this project.** Instead, we are developing our own multiplatform implementation using Expo React Native, which will be available in the `/apps/expo-app` directory.
 
 ## Origin
 
