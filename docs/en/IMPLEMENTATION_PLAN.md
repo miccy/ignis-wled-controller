@@ -10,7 +10,7 @@
 
 - [ ] **Git Submodule Setup (WLED Only)**
   - [ ] Fork the WLED repository
-  - [ ] Add the fork as a submodule
+  - [x] Add the fork as a submodule
   ```bash
   git submodule add https://github.com/[your-username]/WLED external/wled
   git submodule update --init --recursive
@@ -56,7 +56,7 @@
 
 - [ ] **WLED Library Analysis**
   - [ ] Explore API and capabilities
-  - [ ] Document key functions in `docs/wled-api-overview.md`
+  - [x] Document key functions in `docs/en/WLED_API_OVERVIEW.md` and `docs/cs/WLED_API_OVERVIEW.md`
   - [ ] Test connectivity with hardware
 
 ## Phase 3: Expo React Native Implementation

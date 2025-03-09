@@ -10,7 +10,7 @@
 
 - [ ] **Nastavení git submodulu (pouze pro WLED)**
   - [ ] Forknout WLED repozitář
-  - [ ] Přidat fork jako submodul
+  - [x] Přidat fork jako submodul
   ```bash
   git submodule add https://github.com/[vaše-uživatelské-jméno]/WLED external/wled
   git submodule update --init --recursive
@@ -56,7 +56,7 @@
 
 - [ ] **Analýza WLED knihovny**
   - [ ] Prozkoumat API a možnosti WLED
-  - [ ] Zdokumentovat klíčové funkce do `docs/wled-api-overview.md`
+  - [x] Zdokumentovat klíčové funkce do `docs/cs/WLED_API_OVERVIEW.md` a `docs/en/WLED_API_OVERVIEW.md`
   - [ ] Otestovat konektivitu s hardwarem
 
 ## Fáze 3: Implementace Expo React Native aplikace

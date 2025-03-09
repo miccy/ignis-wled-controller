@@ -75,6 +75,13 @@ To test a specific project:
 nx test expo-app
 ```
 
+## WLED API Integration
+
+This project is built around the WLED API for controlling LED devices. For details on how we use the API, see:
+
+- [WLED API Overview (English)](docs/en/WLED_API_OVERVIEW.md)
+- [Přehled WLED API (Česky)](docs/cs/WLED_API_OVERVIEW.md)
+
 ## License
 
 - **Expo React Native app**: [MIT License](LICENSE)
