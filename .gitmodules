@@ -1,0 +1,3 @@
+[submodule "external/wled"]
+	path = external/wled
+	url = https://github.com/miccy/WLED.git
