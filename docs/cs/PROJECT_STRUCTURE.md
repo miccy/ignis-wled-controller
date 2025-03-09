@@ -1,26 +1,27 @@
 # Struktura projektu
 
-## Doporučená struktura monorepa
+## Aktuální struktura monorepa
 
 ```zsh
 ignis-wled-controller/
-├── LICENSE # MIT licence pro váš vlastní kód
-├── README.md # Hlavní dokumentace projektu
-├── CONTRIBUTING.md # Pokyny pro přispěvatele
-├── CODE_OF_CONDUCT.md # Kodex chování
-├── CHANGELOG.md # Historie změn
-├── docs/ # Dokumentace projektu
-│ └── updated/ # Vaše aktualizované dokumenty
-├── packages/ # Balíčky monorepa
-│ ├── expo-app/ # Vaše nová Expo React Native aplikace
-│ ├── shared/ # Sdílený kód (volitelné)
-│ └── web/ # Případná webová implementace (volitelné)
-├── external/ # Externí submoduly
-│ ├── wled/ # WLED knihovna jako submodul
-│ ├── wled-native-ios/ # iOS implementace jako submodul
-│ └── wled-native-android/ # Android implementace jako submodul
-├── .gitmodules # Konfigurace git submodulů
-├── package.json # Hlavní package.json pro monorepo
-├── turbo.json # Konfigurace Turborepo
-└── bun.lockb # Bun lockfile
+├── LICENSE                    # MIT licence pro vlastní kód
+├── README.md                  # Hlavní dokumentace projektu
+├── CONTRIBUTING.md            # Pokyny pro přispěvatele
+├── CODE_OF_CONDUCT.md         # Kodex chování
+├── CHANGELOG.md               # Historie změn
+├── docs/                      # Dokumentace projektu
+│   ├── en/                    # Anglická dokumentace
+│   ├── cs/                    # Česká dokumentace
+│   └── TODO.md                # Vývojové úkoly
+├── packages/                  # JavaScript/TypeScript balíčky
+│   ├── expo-app/              # Expo React Native aplikace
+│   └── shared/                # Sdílené komponenty a utility
+├── apps/                      # Kód nativních aplikací (přímé kopie)
+│   ├── ios-native/            # iOS implementace (pro experimenty)
+│   └── android-native/        # Android implementace (pro experimenty)
+├── external/                  # Externí submoduly
+│   └── wled/                  # WLED knihovna jako submodul (forknutý)
+├── .gitmodules                # Konfigurace git submodulů
+├── package.json               # Hlavní package.json pro monorepo
+└── nx.json                    # Nx konfigurace
 ```
