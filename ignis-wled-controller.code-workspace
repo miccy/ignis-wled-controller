@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "Ignis WLED Controller - Root",
+      "path": "."
+    }
+    /* {
+      "name": "Ignis WLED Controller",
+      "path": "../../ignis-wled-controller"
+    } */
+  ]
+}
