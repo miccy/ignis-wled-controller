@@ -3,10 +3,30 @@
     {
       "name": "Ignis WLED Controller - Root",
       "path": "."
+    },
+    {
+      "name": "Expo App (new)",
+      "path": "./apps/expo-app"
+    },
+    {
+      "name": "Docs (new)",
+      "path": "./docs"
+    },
+    {
+      "name": "Packages",
+      "path": "./packages"
+    },
+    {
+      "name": "Android App (legacy)",
+      "path": "./apps/android-native"
+    },
+    {
+      "name": "iOS App (legacy)",
+      "path": "./apps/ios-native"
+    },
+    {
+      "name": "WLED Library (forked)",
+      "path": "./external/wled"
     }
-    /* {
-      "name": "Ignis WLED Controller",
-      "path": "../../ignis-wled-controller"
-    } */
   ]
 }
