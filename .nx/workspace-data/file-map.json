@@ -1,0 +1,3148 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.6.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "shared": [
+        {
+          "file": "packages/shared/README.md",
+          "hash": "15045879893977529826"
+        },
+        {
+          "file": "packages/shared/package.json",
+          "hash": "935107095495094013"
+        }
+      ],
+      "expo-app": [
+        {
+          "file": "apps/expo-app/.gitignore",
+          "hash": "6206751267077242256"
+        },
+        {
+          "file": "apps/expo-app/README.md",
+          "hash": "9220960323375141803"
+        },
+        {
+          "file": "apps/expo-app/app.json",
+          "hash": "17140726529391696587"
+        },
+        {
+          "file": "apps/expo-app/app/(tabs)/_layout.tsx",
+          "hash": "1275726262998460799"
+        },
+        {
+          "file": "apps/expo-app/app/(tabs)/explore.tsx",
+          "hash": "2524648326927364666"
+        },
+        {
+          "file": "apps/expo-app/app/(tabs)/index.tsx",
+          "hash": "15403949852998121994"
+        },
+        {
+          "file": "apps/expo-app/app/+not-found.tsx",
+          "hash": "5574293347969992986"
+        },
+        {
+          "file": "apps/expo-app/app/_layout.tsx",
+          "hash": "9477064290375082260"
+        },
+        {
+          "file": "apps/expo-app/assets/fonts/SpaceMono-Regular.ttf",
+          "hash": "8316399838606165836"
+        },
+        {
+          "file": "apps/expo-app/assets/images/adaptive-icon.png",
+          "hash": "16102135492459408350"
+        },
+        {
+          "file": "apps/expo-app/assets/images/favicon.png",
+          "hash": "10556792184362654649"
+        },
+        {
+          "file": "apps/expo-app/assets/images/icon.png",
+          "hash": "14252482080276080187"
+        },
+        {
+          "file": "apps/expo-app/assets/images/partial-react-logo.png",
+          "hash": "17138856618252336249"
+        },
+        {
+          "file": "apps/expo-app/assets/images/react-logo.png",
+          "hash": "12800764183471362565"
+        },
+        {
+          "file": "apps/expo-app/assets/images/react-logo@2x.png",
+          "hash": "10620144842436275618"
+        },
+        {
+          "file": "apps/expo-app/assets/images/react-logo@3x.png",
+          "hash": "12902748134652534090"
+        },
+        {
+          "file": "apps/expo-app/assets/images/splash-icon.png",
+          "hash": "16102135492459408350"
+        },
+        {
+          "file": "apps/expo-app/components/Collapsible.tsx",
+          "hash": "16959984125626317857"
+        },
+        {
+          "file": "apps/expo-app/components/ExternalLink.tsx",
+          "hash": "18430746545051851150"
+        },
+        {
+          "file": "apps/expo-app/components/HapticTab.tsx",
+          "hash": "5533600884243926710"
+        },
+        {
+          "file": "apps/expo-app/components/HelloWave.tsx",
+          "hash": "18056693240395022600"
+        },
+        {
+          "file": "apps/expo-app/components/ParallaxScrollView.tsx",
+          "hash": "9656228385101044248"
+        },
+        {
+          "file": "apps/expo-app/components/ThemedText.tsx",
+          "hash": "8838916204566732482"
+        },
+        {
+          "file": "apps/expo-app/components/ThemedView.tsx",
+          "hash": "12328710297602153136"
+        },
+        {
+          "file": "apps/expo-app/components/__tests__/ThemedText-test.tsx",
+          "hash": "5460384641768239059"
+        },
+        {
+          "file": "apps/expo-app/components/__tests__/__snapshots__/ThemedText-test.tsx.snap",
+          "hash": "7137039748800291722"
+        },
+        {
+          "file": "apps/expo-app/components/ui/IconSymbol.ios.tsx",
+          "hash": "12801160683556705757"
+        },
+        {
+          "file": "apps/expo-app/components/ui/IconSymbol.tsx",
+          "hash": "18146012217497559995"
+        },
+        {
+          "file": "apps/expo-app/components/ui/TabBarBackground.ios.tsx",
+          "hash": "4782676225326082304"
+        },
+        {
+          "file": "apps/expo-app/components/ui/TabBarBackground.tsx",
+          "hash": "373112203961315913"
+        },
+        {
+          "file": "apps/expo-app/constants/Colors.ts",
+          "hash": "11938689378131257524"
+        },
+        {
+          "file": "apps/expo-app/hooks/useColorScheme.ts",
+          "hash": "9854634842886202740"
+        },
+        {
+          "file": "apps/expo-app/hooks/useColorScheme.web.ts",
+          "hash": "14806177383020038067"
+        },
+        {
+          "file": "apps/expo-app/hooks/useThemeColor.ts",
+          "hash": "7251580703332788999"
+        },
+        {
+          "file": "apps/expo-app/package.json",
+          "hash": "5039227075883880281"
+        },
+        {
+          "file": "apps/expo-app/scripts/reset-project.js",
+          "hash": "912029883397838943"
+        },
+        {
+          "file": "apps/expo-app/tsconfig.json",
+          "hash": "13453316570448027213"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitmodules",
+        "hash": "9377379064966347577"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "8852718372031077114"
+      },
+      {
+        "file": "CODE_OF_CONDUCT.md",
+        "hash": "9020243297869748081"
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "hash": "16639804006744862526"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "4886693694179287122"
+      },
+      {
+        "file": "README.md",
+        "hash": "14628116390609852114"
+      },
+      {
+        "file": "apps/README.md",
+        "hash": "12413535718854586706"
+      },
+      {
+        "file": "apps/android-native/CODE_OF_CONDUCT.md",
+        "hash": "5774969438191087532"
+      },
+      {
+        "file": "apps/android-native/LICENSE",
+        "hash": "12649885980860800067"
+      },
+      {
+        "file": "apps/android-native/PRIVACY.md",
+        "hash": "6227149798292260855"
+      },
+      {
+        "file": "apps/android-native/README.md",
+        "hash": "7529572091462105441"
+      },
+      {
+        "file": "apps/android-native/app/.gitignore",
+        "hash": "8503360527664811427"
+      },
+      {
+        "file": "apps/android-native/app/build.gradle.kts",
+        "hash": "10864020839223346001"
+      },
+      {
+        "file": "apps/android-native/app/google-services.json",
+        "hash": "16076382884896111100"
+      },
+      {
+        "file": "apps/android-native/app/proguard-rules.pro",
+        "hash": "15677059634890651229"
+      },
+      {
+        "file": "apps/android-native/app/schemas/ca.cgagnier.wlednativeandroid.repository.DevicesDatabase/1.json",
+        "hash": "6939793928385799422"
+      },
+      {
+        "file": "apps/android-native/app/schemas/ca.cgagnier.wlednativeandroid.repository.DevicesDatabase/2.json",
+        "hash": "16535857891228279223"
+      },
+      {
+        "file": "apps/android-native/app/schemas/ca.cgagnier.wlednativeandroid.repository.DevicesDatabase/3.json",
+        "hash": "8867749514216949686"
+      },
+      {
+        "file": "apps/android-native/app/schemas/ca.cgagnier.wlednativeandroid.repository.DevicesDatabase/4.json",
+        "hash": "13228402061925349326"
+      },
+      {
+        "file": "apps/android-native/app/schemas/ca.cgagnier.wlednativeandroid.repository.DevicesDatabase/5.json",
+        "hash": "4608170006052224050"
+      },
+      {
+        "file": "apps/android-native/app/schemas/ca.cgagnier.wlednativeandroid.repository.DevicesDatabase/6.json",
+        "hash": "4663134056601011838"
+      },
+      {
+        "file": "apps/android-native/app/schemas/ca.cgagnier.wlednativeandroid.repository.DevicesDatabase/7.json",
+        "hash": "10475531502005744991"
+      },
+      {
+        "file": "apps/android-native/app/src/androidTest/java/ca/cgagnier/wlednativeandroid/ExampleInstrumentedTest.kt",
+        "hash": "11628590635558728701"
+      },
+      {
+        "file": "apps/android-native/app/src/androidTest/java/ca/cgagnier/wlednativeandroid/domain/use_case/ValidateAddressTest.kt",
+        "hash": "12137952580040342430"
+      },
+      {
+        "file": "apps/android-native/app/src/androidTest/java/ca/cgagnier/wlednativeandroid/repository/DeviceDaoTest.kt",
+        "hash": "3783324020615963126"
+      },
+      {
+        "file": "apps/android-native/app/src/main/AndroidManifest.xml",
+        "hash": "12695524090244210469"
+      },
+      {
+        "file": "apps/android-native/app/src/main/assets/012_rip.png",
+        "hash": "8903861282756090675"
+      },
+      {
+        "file": "apps/android-native/app/src/main/assets/device_error.html",
+        "hash": "5210874244834071994"
+      },
+      {
+        "file": "apps/android-native/app/src/main/ic_launcher-playstore.png",
+        "hash": "3389300996514110101"
+      },
+      {
+        "file": "apps/android-native/app/src/main/ic_launcher_rgb-playstore.png",
+        "hash": "17178679043837528800"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/AppContainer.kt",
+        "hash": "6947353358281378140"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/DevicesApplication.kt",
+        "hash": "16642531775896395710"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/FileUploadContract.kt",
+        "hash": "10587483427101325116"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/FileUploadContractResult.kt",
+        "hash": "15783736415730494702"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/Options.kt",
+        "hash": "14688147966768796674"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/WebViewLiveData.kt",
+        "hash": "13943199969699420913"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/domain/use_case/ValidateAddress.kt",
+        "hash": "1970322838792391308"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/domain/use_case/ValidationResult.kt",
+        "hash": "2719311204427164284"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/Asset.kt",
+        "hash": "17641496188566426222"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/Branch.kt",
+        "hash": "730033743011193407"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/Device.kt",
+        "hash": "5807960204730210474"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/Version.kt",
+        "hash": "14724241529636438354"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/VersionWithAssets.kt",
+        "hash": "1114217238254468256"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/githubapi/Asset.kt",
+        "hash": "18224571510392380264"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/githubapi/Author.kt",
+        "hash": "8915668643297255311"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/githubapi/Reactions.kt",
+        "hash": "14143327889850113727"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/githubapi/Release.kt",
+        "hash": "7988420541432378065"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/githubapi/Uploader.kt",
+        "hash": "4840569461671256055"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/wledapi/DeviceStateInfo.kt",
+        "hash": "4858500503643117654"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/wledapi/FileSystem.kt",
+        "hash": "14407832430797580313"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/wledapi/Info.kt",
+        "hash": "17733449355396966120"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/wledapi/JsonPost.kt",
+        "hash": "2729479412010156630"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/wledapi/Leds.kt",
+        "hash": "2685850542003126190"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/wledapi/Nightlight.kt",
+        "hash": "4894797603431183421"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/wledapi/Segment.kt",
+        "hash": "14940758786498720884"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/wledapi/State.kt",
+        "hash": "5805528617980633354"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/wledapi/UserMods.kt",
+        "hash": "10419808363958654446"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/model/wledapi/Wifi.kt",
+        "hash": "6119782833046778228"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/repository/AssetDao.kt",
+        "hash": "1913781987002810598"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/repository/Converters.kt",
+        "hash": "14237063072512475510"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/repository/DeviceDao.kt",
+        "hash": "237040594029028421"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/repository/DeviceRepository.kt",
+        "hash": "7485673069918219009"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/repository/DevicesDatabase.kt",
+        "hash": "4115844233915581956"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/repository/UserPreferencesRepository.kt",
+        "hash": "13102357427648341512"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/repository/UserPreferencesSerializer.kt",
+        "hash": "9541686502640701130"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/repository/VersionDao.kt",
+        "hash": "2405733385906815972"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/repository/VersionWithAssetsRepository.kt",
+        "hash": "15119228187582495825"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/repository/migrations/UserPreferencesV0ToV1.kt",
+        "hash": "18381105045911529173"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/DeviceDiscovery.kt",
+        "hash": "18206663506670266660"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/NetworkConnectivityManager.kt",
+        "hash": "2735411392285087702"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/api/DeviceApi.kt",
+        "hash": "4527678016468380674"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/api/DownloadState.kt",
+        "hash": "15994792086935389902"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/api/github/GithubApi.kt",
+        "hash": "17179221365013088408"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/api/github/GithubApiEndpoints.kt",
+        "hash": "13698871719914574839"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/device/State.kt",
+        "hash": "17506085743677781203"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/device/StateFactory.kt",
+        "hash": "2849140657039615959"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/device/api/JsonApiRequestHandler.kt",
+        "hash": "17049441459152595512"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/device/api/RequestHandler.kt",
+        "hash": "1677063994924778009"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/device/api/RequestsManager.kt",
+        "hash": "857280794776121003"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/device/api/request/RefreshRequest.kt",
+        "hash": "12295751303445632514"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/device/api/request/Request.kt",
+        "hash": "9148633222467234508"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/device/api/request/SoftwareUpdateRequest.kt",
+        "hash": "11232806296324739335"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/device/api/request/StateChangeRequest.kt",
+        "hash": "13968510893963526170"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/update/DeviceUpdateService.kt",
+        "hash": "1239464751792741096"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/service/update/ReleaseService.kt",
+        "hash": "10885434805265708435"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/MainActivity.kt",
+        "hash": "14541796418069080741"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/MainNavHost.kt",
+        "hash": "16667808028854482078"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/components/DeviceName.kt",
+        "hash": "10954801879925555882"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/components/DeviceVisibleSwitch.kt",
+        "hash": "9742408514675322106"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/components/DeviceWebview.kt",
+        "hash": "9170649585122990136"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/components/SliderWithLabel.kt",
+        "hash": "2013968930667911769"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/components/WebViewViewModel.kt",
+        "hash": "5959563567684275824"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/DeviceListDetail.kt",
+        "hash": "14585913824657351577"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/DeviceListDetailViewModel.kt",
+        "hash": "2766097324175743303"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/detail/DeviceDetail.kt",
+        "hash": "2198420920792406766"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/deviceAdd/DeviceAdd.kt",
+        "hash": "12790695846303666040"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/deviceAdd/DeviceAddFormEvent.kt",
+        "hash": "16058286777780845759"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/deviceAdd/DeviceAddFormState.kt",
+        "hash": "1078157127030185436"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/deviceAdd/DeviceAddViewModel.kt",
+        "hash": "11053668002366670290"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/deviceEdit/DeviceEdit.kt",
+        "hash": "5331304911129998983"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/deviceEdit/DeviceEditViewModel.kt",
+        "hash": "11162070623336013266"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/list/DeviceAPListItem.kt",
+        "hash": "12117921162378023421"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/list/DeviceList.kt",
+        "hash": "3749908808792324559"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/list/DeviceListItem.kt",
+        "hash": "12647782570701501633"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/list/DeviceListViewModel.kt",
+        "hash": "1504495828873382635"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/list/NoDeviceItem.kt",
+        "hash": "127456009984963302"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/update/UpdateDetails.kt",
+        "hash": "10587521152783111051"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/update/UpdateDisclaimer.kt",
+        "hash": "15369287876104091040"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/update/UpdateInstalling.kt",
+        "hash": "3566732020613505613"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/update/UpdateInstallingState.kt",
+        "hash": "17267416627058207062"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/homeScreen/update/UpdateInstallingViewModel.kt",
+        "hash": "15008598427876038104"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/settingsScreen/Settings.kt",
+        "hash": "2715258711325234413"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/settingsScreen/SettingsViewModel.kt",
+        "hash": "4904333051554080383"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/theme/Color.kt",
+        "hash": "16432550508005635319"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/theme/Theme.kt",
+        "hash": "14481179937520184630"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/theme/ThemeViewModel.kt",
+        "hash": "4799259302675359451"
+      },
+      {
+        "file": "apps/android-native/app/src/main/java/ca/cgagnier/wlednativeandroid/ui/theme/Type.kt",
+        "hash": "7343693287273436"
+      },
+      {
+        "file": "apps/android-native/app/src/main/proto/user_prefs.proto",
+        "hash": "2992379069877967599"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable-hdpi/wled_logo_akemi.webp",
+        "hash": "5269841130220751519"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable-ldpi/akemi_018_teeth.png",
+        "hash": "8127052655227930575"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable-ldpi/wled_logo_akemi.webp",
+        "hash": "1576630763467759034"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable-mdpi/wled_logo_akemi.webp",
+        "hash": "6796743895687884500"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable-xhdpi/wled_logo_akemi.webp",
+        "hash": "7646195336956281579"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable-xxhdpi/wled_logo_akemi.webp",
+        "hash": "8132185148710107614"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable-xxxhdpi/wled_logo_akemi.webp",
+        "hash": "6998623487290788373"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_battery_0_bar_24.xml",
+        "hash": "17120829601534378762"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_battery_1_bar_24.xml",
+        "hash": "765590416594529160"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_battery_2_bar_24.xml",
+        "hash": "1736145370551611501"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_battery_3_bar_24.xml",
+        "hash": "2599873364720865802"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_battery_4_bar_24.xml",
+        "hash": "12236336944520954782"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_battery_5_bar_24.xml",
+        "hash": "17811425497560116027"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_battery_6_bar_24.xml",
+        "hash": "15120930305974132290"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_battery_full_24.xml",
+        "hash": "9354693448708463288"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_coffee_24.xml",
+        "hash": "15488356511558368243"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_download_24.xml",
+        "hash": "8019865488929236355"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_error_outline_24.xml",
+        "hash": "17366649408741411942"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_help_24.xml",
+        "hash": "18103415897981839606"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_update_24.xml",
+        "hash": "8195078229634152502"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_update_disabled_24.xml",
+        "hash": "18040267664407643715"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_visibility_24.xml",
+        "hash": "14941791743860160999"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/baseline_wifi_find_24.xml",
+        "hash": "11950005904295645783"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/ic_baseline_router_24.xml",
+        "hash": "12893076962116510673"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml",
+        "hash": "5664892576930336500"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/ic_twotone_check_circle_outline_24.xml",
+        "hash": "852331936886023996"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/twotone_signal_wifi_0_bar_24.xml",
+        "hash": "16240462664274864774"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/twotone_signal_wifi_1_bar_24.xml",
+        "hash": "8048090627238531351"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/twotone_signal_wifi_2_bar_24.xml",
+        "hash": "15269683749004549693"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/twotone_signal_wifi_3_bar_24.xml",
+        "hash": "10751327468271519496"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/twotone_signal_wifi_4_bar_24.xml",
+        "hash": "17238757117930207319"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/drawable/twotone_signal_wifi_connected_no_internet_0_24.xml",
+        "hash": "11535607653667799938"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/error.html",
+        "hash": "18413433052592926487"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-anydpi-v26/ic_launcher_rgb.xml",
+        "hash": "13418619188013201235"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-anydpi-v26/ic_launcher_rgb_round.xml",
+        "hash": "13418619188013201235"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-hdpi/ic_launcher_monochrome.png",
+        "hash": "11979850764728230735"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-hdpi/ic_launcher_rgb.png",
+        "hash": "2734654163766953556"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-hdpi/ic_launcher_rgb_foreground.png",
+        "hash": "4542616114690201677"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-hdpi/ic_launcher_rgb_round.png",
+        "hash": "9680448284423515120"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-mdpi/ic_launcher_monochrome.png",
+        "hash": "8595619807727160987"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-mdpi/ic_launcher_rgb.png",
+        "hash": "14523682380180872666"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-mdpi/ic_launcher_rgb_foreground.png",
+        "hash": "12598470083807191353"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-mdpi/ic_launcher_rgb_round.png",
+        "hash": "17933534506744067192"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-xhdpi/ic_launcher_monochrome.png",
+        "hash": "7149406062880546489"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-xhdpi/ic_launcher_rgb.png",
+        "hash": "250510945731991240"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-xhdpi/ic_launcher_rgb_foreground.png",
+        "hash": "9820626447481437303"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-xhdpi/ic_launcher_rgb_round.png",
+        "hash": "10028840733326150369"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-xxhdpi/ic_launcher_monochrome.png",
+        "hash": "15301907784223296517"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-xxhdpi/ic_launcher_rgb.png",
+        "hash": "11003834316593528741"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-xxhdpi/ic_launcher_rgb_foreground.png",
+        "hash": "8974994783413986238"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-xxhdpi/ic_launcher_rgb_round.png",
+        "hash": "9415454331628413605"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-xxxhdpi/ic_launcher_monochrome.png",
+        "hash": "9685840023371068699"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-xxxhdpi/ic_launcher_rgb.png",
+        "hash": "8252456457175312841"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-xxxhdpi/ic_launcher_rgb_foreground.png",
+        "hash": "15173321795338282513"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/mipmap-xxxhdpi/ic_launcher_rgb_round.png",
+        "hash": "727483142244249661"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/values-fr/strings.xml",
+        "hash": "13105999016535603055"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/values-night/themes.xml",
+        "hash": "17514831538021807058"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/values/attrs.xml",
+        "hash": "13490915634586950466"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/values/colors.xml",
+        "hash": "17093536001342238032"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/values/ic_launcher_background.xml",
+        "hash": "5091409845240541404"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/values/ic_launcher_rgb_background.xml",
+        "hash": "58851161400071817"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/values/splash.xml",
+        "hash": "2804687683747225026"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/values/strings.xml",
+        "hash": "1998579751833587886"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/values/themes.xml",
+        "hash": "17514831538021807058"
+      },
+      {
+        "file": "apps/android-native/app/src/main/res/xml/locales_config.xml",
+        "hash": "1732750912922359158"
+      },
+      {
+        "file": "apps/android-native/build.gradle.kts",
+        "hash": "17920957388228376846"
+      },
+      {
+        "file": "apps/android-native/gradle.properties",
+        "hash": "17664421822351859390"
+      },
+      {
+        "file": "apps/android-native/gradle/libs.versions.toml",
+        "hash": "8061534447239257797"
+      },
+      {
+        "file": "apps/android-native/gradle/wrapper/gradle-wrapper.jar",
+        "hash": "15827462154555836939"
+      },
+      {
+        "file": "apps/android-native/gradle/wrapper/gradle-wrapper.properties",
+        "hash": "2580291488702541164"
+      },
+      {
+        "file": "apps/android-native/gradlew",
+        "hash": "5672449845342018919"
+      },
+      {
+        "file": "apps/android-native/gradlew.bat",
+        "hash": "4148442249581167124"
+      },
+      {
+        "file": "apps/android-native/settings.gradle.kts",
+        "hash": "3230828421781573435"
+      },
+      {
+        "file": "apps/android-native/storeListing/featureGraphic.png",
+        "hash": "9036684896256369165"
+      },
+      {
+        "file": "apps/android-native/storeListing/featureGraphic.psd",
+        "hash": "12260709793303279853"
+      },
+      {
+        "file": "apps/android-native/storeListing/icon.png",
+        "hash": "7892171787299084166"
+      },
+      {
+        "file": "apps/ios-native/LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": "apps/ios-native/PRIVACY.md",
+        "hash": "6227149798292260855"
+      },
+      {
+        "file": "apps/ios-native/README.md",
+        "hash": "11292044856823598416"
+      },
+      {
+        "file": "apps/ios-native/wled-native.xcodeproj/project.pbxproj",
+        "hash": "16136102537215570301"
+      },
+      {
+        "file": "apps/ios-native/wled-native.xcodeproj/xcshareddata/xcschemes/wled-native.xcscheme",
+        "hash": "5270766193024902601"
+      },
+      {
+        "file": "apps/ios-native/wled-native/012_rip.png",
+        "hash": "8903861282756090675"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Assets.xcassets/AccentColor.colorset/Contents.json",
+        "hash": "2795335142552567978"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Assets.xcassets/AppIcon.appiconset/Contents.json",
+        "hash": "17607453805378100416"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Assets.xcassets/AppIcon.appiconset/wled-icon-gray.png",
+        "hash": "8589187713294194258"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Assets.xcassets/Contents.json",
+        "hash": "6988882422559056195"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Assets.xcassets/wled_logo_akemi.imageset/Contents.json",
+        "hash": "16379043710998027204"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Assets.xcassets/wled_logo_akemi.imageset/wled_logo_akemi.png",
+        "hash": "18346927862459475780"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Info.plist",
+        "hash": "5473961338763926414"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Launch Screen.storyboard",
+        "hash": "1821706896550269174"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/Branch.swift",
+        "hash": "12965101863920109091"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Request/WLEDChangeStateRequest.swift",
+        "hash": "9625871635368324557"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Request/WLEDRefreshRequest.swift",
+        "hash": "3463254738986566392"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Request/WLEDRequest.swift",
+        "hash": "9155853232582133075"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Request/WLEDRequestState.swift",
+        "hash": "2894534690314395516"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Request/WLEDSoftwareUpdateRequest.swift",
+        "hash": "9649431536698477949"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Response/DeviceStateInfo.swift",
+        "hash": "13958027190375288850"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Response/FileSystem.swift",
+        "hash": "3814305994654606295"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Response/Info.swift",
+        "hash": "204023235549326787"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Response/Leds.swift",
+        "hash": "17574760394392048767"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Response/Nightlight.swift",
+        "hash": "15006756839455994654"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Response/Segment.swift",
+        "hash": "13593630006766084040"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Response/Wifi.swift",
+        "hash": "17158048330540776412"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/DeviceApi/Response/WledState.swift",
+        "hash": "12566481127358473140"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/Github/Author.swift",
+        "hash": "3381569026126852913"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/Github/GithubAsset.swift",
+        "hash": "13327263155755265463"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/Github/Reactions.swift",
+        "hash": "5270166561505149641"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/Github/Release.swift",
+        "hash": "9005220291980464436"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Model/Github/Uploader.swift",
+        "hash": "16773262240047461167"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Persistence.swift",
+        "hash": "2001868293520667150"
+      },
+      {
+        "file": "apps/ios-native/wled-native/PrivacyInfo.xcprivacy",
+        "hash": "9835532401243058870"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Service/DeviceApi/DeviceExtensions.swift",
+        "hash": "3697797901087837163"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Service/DeviceApi/WLEDJsonApiHandler.swift",
+        "hash": "17699954641928494915"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Service/DeviceApi/WLEDRequestHandler.swift",
+        "hash": "13050368480467701559"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Service/DeviceApi/WLEDRequestManager.swift",
+        "hash": "10064394671567923345"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Service/DeviceApi/WLEDWebsocketHandler.swift",
+        "hash": "10266853564669741049"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Service/DeviceState.swift",
+        "hash": "2251496885383826699"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Service/DeviceStateFactory.swift",
+        "hash": "17688830395404054964"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Service/DeviceUpdateService.swift",
+        "hash": "16174428440100063186"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Service/DiscoveryService.swift",
+        "hash": "15530102508327314346"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Service/GithubApi.swift",
+        "hash": "9467828384535682530"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Service/ReleaseService.swift",
+        "hash": "13663881881788220790"
+      },
+      {
+        "file": "apps/ios-native/wled-native/Service/WLEDRepoApi.swift",
+        "hash": "11725246230218094719"
+      },
+      {
+        "file": "apps/ios-native/wled-native/View/DeviceAddView.swift",
+        "hash": "17733122630870645257"
+      },
+      {
+        "file": "apps/ios-native/wled-native/View/DeviceEditView.swift",
+        "hash": "4544866817405190978"
+      },
+      {
+        "file": "apps/ios-native/wled-native/View/DeviceListItemView.swift",
+        "hash": "15054336165678260243"
+      },
+      {
+        "file": "apps/ios-native/wled-native/View/DeviceListView.swift",
+        "hash": "15528267911701872811"
+      },
+      {
+        "file": "apps/ios-native/wled-native/View/DeviceUpdateDetails.swift",
+        "hash": "13480776205333188935"
+      },
+      {
+        "file": "apps/ios-native/wled-native/View/DeviceUpdateInstalling.swift",
+        "hash": "7924543122145754039"
+      },
+      {
+        "file": "apps/ios-native/wled-native/View/DeviceView.swift",
+        "hash": "10086882191058522986"
+      },
+      {
+        "file": "apps/ios-native/wled-native/View/Tool/BackgroundBlurView.swift",
+        "hash": "16665319935244263550"
+      },
+      {
+        "file": "apps/ios-native/wled-native/View/Tool/FetchedObjects.swift",
+        "hash": "2348013746849188029"
+      },
+      {
+        "file": "apps/ios-native/wled-native/View/Tool/ToolbarBadge.swift",
+        "hash": "11273005218048231076"
+      },
+      {
+        "file": "apps/ios-native/wled-native/View/WebView.swift",
+        "hash": "1085101638579034170"
+      },
+      {
+        "file": "apps/ios-native/wled-native/WLEDNativeApp.swift",
+        "hash": "12922367617295918759"
+      },
+      {
+        "file": "apps/ios-native/wled-native/en.lproj/InfoPlist.strings",
+        "hash": "12783027918998458076"
+      },
+      {
+        "file": "apps/ios-native/wled-native/en.lproj/Localizable.strings",
+        "hash": "2809381370697647026"
+      },
+      {
+        "file": "apps/ios-native/wled-native/errorPage.css",
+        "hash": "11377763197312138694"
+      },
+      {
+        "file": "apps/ios-native/wled-native/errorPage.en.html",
+        "hash": "13676334966147512696"
+      },
+      {
+        "file": "apps/ios-native/wled-native/errorPage.fr.html",
+        "hash": "404092055222606600"
+      },
+      {
+        "file": "apps/ios-native/wled-native/fr-CA.lproj/InfoPlist.strings",
+        "hash": "5039324248569054647"
+      },
+      {
+        "file": "apps/ios-native/wled-native/fr-CA.lproj/Localizable.strings",
+        "hash": "17956990755943174671"
+      },
+      {
+        "file": "apps/ios-native/wled-native/wled_native_data.xcdatamodeld/wled_native_data.xcdatamodel/contents",
+        "hash": "4333541478459077701"
+      },
+      {
+        "file": "docs/cs/CHANGELOG.md",
+        "hash": "7599211056993258645"
+      },
+      {
+        "file": "docs/cs/CODE_OF_CONDUCT.md",
+        "hash": "15553598115134867594"
+      },
+      {
+        "file": "docs/cs/CONTRIBUTING.md",
+        "hash": "3764397222589844000"
+      },
+      {
+        "file": "docs/cs/IMPLEMENTATION_PLAN.md",
+        "hash": "17946790089482222345"
+      },
+      {
+        "file": "docs/cs/LICENSE_ANALYSIS.md",
+        "hash": "6385714430877164456"
+      },
+      {
+        "file": "docs/cs/PROJECT_STRUCTURE.md",
+        "hash": "16438470539265654311"
+      },
+      {
+        "file": "docs/cs/README.md",
+        "hash": "13207585859402455103"
+      },
+      {
+        "file": "docs/cs/WLED_API_OVERVIEW.md",
+        "hash": "17419402433316338987"
+      },
+      {
+        "file": "docs/en/CHANGELOG.md",
+        "hash": "10410383764346404735"
+      },
+      {
+        "file": "docs/en/CODE_OF_CONDUCT.md",
+        "hash": "9395392679762300006"
+      },
+      {
+        "file": "docs/en/CONTRIBUTING.md",
+        "hash": "3358067278536235808"
+      },
+      {
+        "file": "docs/en/IMPLEMENTATION_PLAN.md",
+        "hash": "7781538383150649425"
+      },
+      {
+        "file": "docs/en/LICENSE_ANALYSIS.md",
+        "hash": "14921519992636434123"
+      },
+      {
+        "file": "docs/en/PROJECT_STRUCTURE.md",
+        "hash": "11042604587782196049"
+      },
+      {
+        "file": "docs/en/README.md",
+        "hash": "11764677825622504285"
+      },
+      {
+        "file": "docs/en/WLED_API_OVERVIEW.md",
+        "hash": "16686269578319838568"
+      },
+      {
+        "file": "external/README.md",
+        "hash": "5635537816475494210"
+      },
+      {
+        "file": "external/wled/.devcontainer/Dockerfile",
+        "hash": "10719456078315666827"
+      },
+      {
+        "file": "external/wled/.devcontainer/devcontainer.json",
+        "hash": "3263165738939758883"
+      },
+      {
+        "file": "external/wled/.envrc",
+        "hash": "51760838888840915"
+      },
+      {
+        "file": "external/wled/.github/FUNDING.yml",
+        "hash": "17306891581469020953"
+      },
+      {
+        "file": "external/wled/.github/ISSUE_TEMPLATE/bug.yml",
+        "hash": "9261747896810478336"
+      },
+      {
+        "file": "external/wled/.github/ISSUE_TEMPLATE/config.yml",
+        "hash": "10741358897963533815"
+      },
+      {
+        "file": "external/wled/.github/ISSUE_TEMPLATE/feature_request.md",
+        "hash": "8096332565011868090"
+      },
+      {
+        "file": "external/wled/.github/workflows/build.yml",
+        "hash": "12948473267229934456"
+      },
+      {
+        "file": "external/wled/.github/workflows/nightly.yml",
+        "hash": "15271402483667363469"
+      },
+      {
+        "file": "external/wled/.github/workflows/pr-merge.yaml",
+        "hash": "17779944249852424512"
+      },
+      {
+        "file": "external/wled/.github/workflows/release.yml",
+        "hash": "16616666871752700361"
+      },
+      {
+        "file": "external/wled/.github/workflows/stale.yml",
+        "hash": "16780025172525633169"
+      },
+      {
+        "file": "external/wled/.github/workflows/test.yaml",
+        "hash": "15514041454979417887"
+      },
+      {
+        "file": "external/wled/.github/workflows/wled-ci.yml",
+        "hash": "1158920324151292959"
+      },
+      {
+        "file": "external/wled/.gitignore",
+        "hash": "8633284680650897247"
+      },
+      {
+        "file": "external/wled/.gitpod.Dockerfile",
+        "hash": "5497801152573998850"
+      },
+      {
+        "file": "external/wled/.gitpod.yml",
+        "hash": "8307878918165788680"
+      },
+      {
+        "file": "external/wled/.nvmrc",
+        "hash": "4204687135086226109"
+      },
+      {
+        "file": "external/wled/CHANGELOG.md",
+        "hash": "16105897730176777694"
+      },
+      {
+        "file": "external/wled/CODE_OF_CONDUCT.md",
+        "hash": "1745543582301439079"
+      },
+      {
+        "file": "external/wled/CONTRIBUTING.md",
+        "hash": "12056038885145716420"
+      },
+      {
+        "file": "external/wled/LICENSE",
+        "hash": "6624381814698705026"
+      },
+      {
+        "file": "external/wled/boards/lolin_s3_mini.json",
+        "hash": "13494931781101048840"
+      },
+      {
+        "file": "external/wled/images/Readme.md",
+        "hash": "6404444615832094676"
+      },
+      {
+        "file": "external/wled/images/macbook-pro-space-gray-on-the-wooden-table.jpg",
+        "hash": "8540596214929282515"
+      },
+      {
+        "file": "external/wled/images/walking-with-iphone-x.jpg",
+        "hash": "10397976497852995998"
+      },
+      {
+        "file": "external/wled/images/wled_logo_akemi.png",
+        "hash": "3010245172377847006"
+      },
+      {
+        "file": "external/wled/images/wled_logo_old.png",
+        "hash": "10135708065347795075"
+      },
+      {
+        "file": "external/wled/include/README",
+        "hash": "12854022240621122532"
+      },
+      {
+        "file": "external/wled/lib/ESP8266PWM/src/core_esp8266_waveform_phase.cpp",
+        "hash": "1396147664829909912"
+      },
+      {
+        "file": "external/wled/lib/README",
+        "hash": "4356174021734585037"
+      },
+      {
+        "file": "external/wled/package-lock.json",
+        "hash": "11623093103166867201"
+      },
+      {
+        "file": "external/wled/package.json",
+        "hash": "738419844653711285"
+      },
+      {
+        "file": "external/wled/pio-scripts/build_ui.py",
+        "hash": "4305595898072602845"
+      },
+      {
+        "file": "external/wled/pio-scripts/obj-dump.py",
+        "hash": "9260893667410251728"
+      },
+      {
+        "file": "external/wled/pio-scripts/output_bins.py",
+        "hash": "8630103990899102655"
+      },
+      {
+        "file": "external/wled/pio-scripts/set_version.py",
+        "hash": "15451613935818820526"
+      },
+      {
+        "file": "external/wled/pio-scripts/strip-floats.py",
+        "hash": "7703515961196517300"
+      },
+      {
+        "file": "external/wled/pio-scripts/user_config_copy.py",
+        "hash": "16722637718556480477"
+      },
+      {
+        "file": "external/wled/platformio.ini",
+        "hash": "11181008692681260608"
+      },
+      {
+        "file": "external/wled/platformio_override.sample.ini",
+        "hash": "10487095393188602869"
+      },
+      {
+        "file": "external/wled/readme.md",
+        "hash": "9313870840222073354"
+      },
+      {
+        "file": "external/wled/requirements.in",
+        "hash": "7906766417681063228"
+      },
+      {
+        "file": "external/wled/requirements.txt",
+        "hash": "13071608258845287722"
+      },
+      {
+        "file": "external/wled/test/README",
+        "hash": "10976433192874616366"
+      },
+      {
+        "file": "external/wled/tools/AutoCubeMap.xlsx",
+        "hash": "16650481353080930640"
+      },
+      {
+        "file": "external/wled/tools/WLED_ESP32-wrover_4MB.csv",
+        "hash": "12882469033003620128"
+      },
+      {
+        "file": "external/wled/tools/WLED_ESP32_16MB.csv",
+        "hash": "2240438611087807749"
+      },
+      {
+        "file": "external/wled/tools/WLED_ESP32_16MB_9MB_FS.csv",
+        "hash": "9003103923555028791"
+      },
+      {
+        "file": "external/wled/tools/WLED_ESP32_2MB_noOTA.csv",
+        "hash": "5621309471084350939"
+      },
+      {
+        "file": "external/wled/tools/WLED_ESP32_4MB_1MB_FS.csv",
+        "hash": "5148357800257453655"
+      },
+      {
+        "file": "external/wled/tools/WLED_ESP32_4MB_256KB_FS.csv",
+        "hash": "16886994561784973124"
+      },
+      {
+        "file": "external/wled/tools/WLED_ESP32_4MB_512KB_FS.csv",
+        "hash": "3415518668832582700"
+      },
+      {
+        "file": "external/wled/tools/WLED_ESP32_4MB_700k_FS.csv",
+        "hash": "12882469033003620128"
+      },
+      {
+        "file": "external/wled/tools/WLED_ESP32_8MB.csv",
+        "hash": "16888967311703384627"
+      },
+      {
+        "file": "external/wled/tools/all_xml.sh",
+        "hash": "10792680554850752474"
+      },
+      {
+        "file": "external/wled/tools/cdata-test.js",
+        "hash": "7101901529495442817"
+      },
+      {
+        "file": "external/wled/tools/cdata.js",
+        "hash": "15995659914420879257"
+      },
+      {
+        "file": "external/wled/tools/fps_test.htm",
+        "hash": "1152918308231579477"
+      },
+      {
+        "file": "external/wled/tools/json_test.htm",
+        "hash": "11458421341392752673"
+      },
+      {
+        "file": "external/wled/tools/multi-update.cmd",
+        "hash": "11698813871923099830"
+      },
+      {
+        "file": "external/wled/tools/multi-update.sh",
+        "hash": "17645531614650612409"
+      },
+      {
+        "file": "external/wled/tools/stress_test.sh",
+        "hash": "17819096325253652390"
+      },
+      {
+        "file": "external/wled/tools/udp_test.py",
+        "hash": "4685792596504532865"
+      },
+      {
+        "file": "external/wled/usermods/ADS1115_v2/ChannelSettings.h",
+        "hash": "7971851233969953106"
+      },
+      {
+        "file": "external/wled/usermods/ADS1115_v2/readme.md",
+        "hash": "10234932529768684807"
+      },
+      {
+        "file": "external/wled/usermods/ADS1115_v2/usermod_ads1115.h",
+        "hash": "4275477006610504604"
+      },
+      {
+        "file": "external/wled/usermods/AHT10_v2/README.md",
+        "hash": "9395674749041333500"
+      },
+      {
+        "file": "external/wled/usermods/AHT10_v2/usermod_aht10.h",
+        "hash": "72935247849692276"
+      },
+      {
+        "file": "external/wled/usermods/Analog_Clock/Analog_Clock.h",
+        "hash": "11278290123300985411"
+      },
+      {
+        "file": "external/wled/usermods/Animated_Staircase/Animated_Staircase.h",
+        "hash": "13984848398086101249"
+      },
+      {
+        "file": "external/wled/usermods/Animated_Staircase/README.md",
+        "hash": "18372527942938182895"
+      },
+      {
+        "file": "external/wled/usermods/Artemis_reciever/readme.md",
+        "hash": "18225186974240190092"
+      },
+      {
+        "file": "external/wled/usermods/Artemis_reciever/usermod.cpp",
+        "hash": "3584395378610415415"
+      },
+      {
+        "file": "external/wled/usermods/BH1750_v2/readme.md",
+        "hash": "6708968539019236634"
+      },
+      {
+        "file": "external/wled/usermods/BH1750_v2/usermod_bh1750.h",
+        "hash": "12401300251217250075"
+      },
+      {
+        "file": "external/wled/usermods/BME280_v2/README.md",
+        "hash": "10953411227879438473"
+      },
+      {
+        "file": "external/wled/usermods/BME280_v2/usermod_bme280.h",
+        "hash": "13216722701775436732"
+      },
+      {
+        "file": "external/wled/usermods/BME68X_v2/BME680.pdf",
+        "hash": "7116010393771663673"
+      },
+      {
+        "file": "external/wled/usermods/BME68X_v2/README.md",
+        "hash": "8453427494468372566"
+      },
+      {
+        "file": "external/wled/usermods/BME68X_v2/pics/GeoGab.svg",
+        "hash": "2746090981414654258"
+      },
+      {
+        "file": "external/wled/usermods/BME68X_v2/pics/pic1.png",
+        "hash": "5221002323339581097"
+      },
+      {
+        "file": "external/wled/usermods/BME68X_v2/pics/pic2.png",
+        "hash": "10227055253544772102"
+      },
+      {
+        "file": "external/wled/usermods/BME68X_v2/pics/pic3.png",
+        "hash": "14404648973331154303"
+      },
+      {
+        "file": "external/wled/usermods/BME68X_v2/pics/pic4.png",
+        "hash": "3820842937381385159"
+      },
+      {
+        "file": "external/wled/usermods/BME68X_v2/pics/pic5.png",
+        "hash": "12861446774319460244"
+      },
+      {
+        "file": "external/wled/usermods/BME68X_v2/pics/pic6.png",
+        "hash": "982263803093023572"
+      },
+      {
+        "file": "external/wled/usermods/BME68X_v2/usermod_bme68x.h",
+        "hash": "18043377737525155145"
+      },
+      {
+        "file": "external/wled/usermods/Battery/UMBattery.h",
+        "hash": "84049747099035016"
+      },
+      {
+        "file": "external/wled/usermods/Battery/assets/battery_connection_schematic_01.png",
+        "hash": "4708277475090183169"
+      },
+      {
+        "file": "external/wled/usermods/Battery/assets/battery_connection_schematic_02.png",
+        "hash": "8018715687392600288"
+      },
+      {
+        "file": "external/wled/usermods/Battery/assets/battery_connection_schematic_esp32.png",
+        "hash": "12601531170407023137"
+      },
+      {
+        "file": "external/wled/usermods/Battery/assets/battery_connection_schematic_esp32_v2.png",
+        "hash": "15486608022573386908"
+      },
+      {
+        "file": "external/wled/usermods/Battery/assets/battery_info_screen.png",
+        "hash": "7504490061970404276"
+      },
+      {
+        "file": "external/wled/usermods/Battery/assets/battery_usermod_logo.png",
+        "hash": "4939426811601823208"
+      },
+      {
+        "file": "external/wled/usermods/Battery/assets/installation_my_config_h.png",
+        "hash": "3863112310687058725"
+      },
+      {
+        "file": "external/wled/usermods/Battery/assets/installation_platformio_override_ini.png",
+        "hash": "6344298127433395243"
+      },
+      {
+        "file": "external/wled/usermods/Battery/battery_defaults.h",
+        "hash": "6843472533521719419"
+      },
+      {
+        "file": "external/wled/usermods/Battery/readme.md",
+        "hash": "5160451585343593862"
+      },
+      {
+        "file": "external/wled/usermods/Battery/types/LionUMBattery.h",
+        "hash": "3315303120361157078"
+      },
+      {
+        "file": "external/wled/usermods/Battery/types/LipoUMBattery.h",
+        "hash": "18257764786857947783"
+      },
+      {
+        "file": "external/wled/usermods/Battery/types/UnkownUMBattery.h",
+        "hash": "1247149232993524796"
+      },
+      {
+        "file": "external/wled/usermods/Battery/usermod_v2_Battery.h",
+        "hash": "4469116713232357773"
+      },
+      {
+        "file": "external/wled/usermods/Cronixie/readme.md",
+        "hash": "4942149033420298629"
+      },
+      {
+        "file": "external/wled/usermods/Cronixie/usermod_cronixie.h",
+        "hash": "14287266440424345502"
+      },
+      {
+        "file": "external/wled/usermods/DHT/readme.md",
+        "hash": "3744394413501004610"
+      },
+      {
+        "file": "external/wled/usermods/DHT/usermod_dht.h",
+        "hash": "6308431668449145745"
+      },
+      {
+        "file": "external/wled/usermods/EXAMPLE_v2/readme.md",
+        "hash": "3651938176766998248"
+      },
+      {
+        "file": "external/wled/usermods/EXAMPLE_v2/usermod_v2_example.h",
+        "hash": "13071596233625028247"
+      },
+      {
+        "file": "external/wled/usermods/EleksTube_IPS/ChipSelect.h",
+        "hash": "2854141266782572962"
+      },
+      {
+        "file": "external/wled/usermods/EleksTube_IPS/Hardware.h",
+        "hash": "6899265643690427136"
+      },
+      {
+        "file": "external/wled/usermods/EleksTube_IPS/TFTs.h",
+        "hash": "11737759121985912535"
+      },
+      {
+        "file": "external/wled/usermods/EleksTube_IPS/User_Setup.h",
+        "hash": "2543853538046876490"
+      },
+      {
+        "file": "external/wled/usermods/EleksTube_IPS/readme.md",
+        "hash": "14785399951671245238"
+      },
+      {
+        "file": "external/wled/usermods/EleksTube_IPS/usermod_elekstube_ips.h",
+        "hash": "14786584327214259206"
+      },
+      {
+        "file": "external/wled/usermods/Enclosure_with_OLED_temp_ESP07/assets/controller.jpg",
+        "hash": "11927067149155164481"
+      },
+      {
+        "file": "external/wled/usermods/Enclosure_with_OLED_temp_ESP07/assets/pcb.png",
+        "hash": "10139304305005682859"
+      },
+      {
+        "file": "external/wled/usermods/Enclosure_with_OLED_temp_ESP07/assets/readme.md",
+        "hash": "14209538256997750690"
+      },
+      {
+        "file": "external/wled/usermods/Enclosure_with_OLED_temp_ESP07/readme.md",
+        "hash": "821300709849489269"
+      },
+      {
+        "file": "external/wled/usermods/Enclosure_with_OLED_temp_ESP07/usermod.cpp",
+        "hash": "16836781053283285777"
+      },
+      {
+        "file": "external/wled/usermods/Enclosure_with_OLED_temp_ESP07/usermod_bme280.cpp",
+        "hash": "17475130327871175565"
+      },
+      {
+        "file": "external/wled/usermods/Fix_unreachable_netservices_v2/readme.md",
+        "hash": "12013711474091584296"
+      },
+      {
+        "file": "external/wled/usermods/Fix_unreachable_netservices_v2/usermod_Fix_unreachable_netservices.h",
+        "hash": "3960204288865594703"
+      },
+      {
+        "file": "external/wled/usermods/INA226_v2/README.md",
+        "hash": "143358224354595693"
+      },
+      {
+        "file": "external/wled/usermods/INA226_v2/usermod_ina226.h",
+        "hash": "10508136783748902819"
+      },
+      {
+        "file": "external/wled/usermods/Internal_Temperature_v2/assets/screenshot_info.png",
+        "hash": "14405740729396948038"
+      },
+      {
+        "file": "external/wled/usermods/Internal_Temperature_v2/assets/screenshot_settings.png",
+        "hash": "682086306170759456"
+      },
+      {
+        "file": "external/wled/usermods/Internal_Temperature_v2/readme.md",
+        "hash": "241620802593699924"
+      },
+      {
+        "file": "external/wled/usermods/Internal_Temperature_v2/usermod_internal_temperature.h",
+        "hash": "16318706034996574689"
+      },
+      {
+        "file": "external/wled/usermods/JSON_IR_remote/21-key_ir.json",
+        "hash": "1646789528243997042"
+      },
+      {
+        "file": "external/wled/usermods/JSON_IR_remote/24-key_ir.json",
+        "hash": "9740088045259859074"
+      },
+      {
+        "file": "external/wled/usermods/JSON_IR_remote/32-key_ir.json",
+        "hash": "17166776380789371260"
+      },
+      {
+        "file": "external/wled/usermods/JSON_IR_remote/40-key-black_ir.json",
+        "hash": "8539986006378107247"
+      },
+      {
+        "file": "external/wled/usermods/JSON_IR_remote/40-key-blue_ir.json",
+        "hash": "9542833068262231834"
+      },
+      {
+        "file": "external/wled/usermods/JSON_IR_remote/44-key_ir.json",
+        "hash": "6121510777270143083"
+      },
+      {
+        "file": "external/wled/usermods/JSON_IR_remote/6-key_ir.json",
+        "hash": "15771156770202329309"
+      },
+      {
+        "file": "external/wled/usermods/JSON_IR_remote/9-key_ir.json",
+        "hash": "17645975256481186134"
+      },
+      {
+        "file": "external/wled/usermods/JSON_IR_remote/IR_Remote_Codes.xlsx",
+        "hash": "10054359131474591077"
+      },
+      {
+        "file": "external/wled/usermods/JSON_IR_remote/ir_json_maker.py",
+        "hash": "7036188580744519777"
+      },
+      {
+        "file": "external/wled/usermods/JSON_IR_remote/readme.md",
+        "hash": "14011506456095916421"
+      },
+      {
+        "file": "external/wled/usermods/LD2410_v2/readme.md",
+        "hash": "2363075478299317482"
+      },
+      {
+        "file": "external/wled/usermods/LD2410_v2/usermod_ld2410.h",
+        "hash": "2555091565803937529"
+      },
+      {
+        "file": "external/wled/usermods/LDR_Dusk_Dawn_v2/README.md",
+        "hash": "4718732124791570660"
+      },
+      {
+        "file": "external/wled/usermods/LDR_Dusk_Dawn_v2/usermod_LDR_Dusk_Dawn_v2.h",
+        "hash": "13863805516988899166"
+      },
+      {
+        "file": "external/wled/usermods/MAX17048_v2/readme.md",
+        "hash": "4409467106335122063"
+      },
+      {
+        "file": "external/wled/usermods/MAX17048_v2/usermod_max17048.h",
+        "hash": "8335909114050726360"
+      },
+      {
+        "file": "external/wled/usermods/MY9291/MY92xx.h",
+        "hash": "10839891777557398704"
+      },
+      {
+        "file": "external/wled/usermods/MY9291/usermode_MY9291.h",
+        "hash": "14015029865466558819"
+      },
+      {
+        "file": "external/wled/usermods/PIR_sensor_switch/PIR_Highlight_Standby",
+        "hash": "6480180940193957215"
+      },
+      {
+        "file": "external/wled/usermods/PIR_sensor_switch/readme.md",
+        "hash": "3677772733606490002"
+      },
+      {
+        "file": "external/wled/usermods/PIR_sensor_switch/usermod_PIR_sensor_switch.h",
+        "hash": "14226564151492868752"
+      },
+      {
+        "file": "external/wled/usermods/PWM_fan/readme.md",
+        "hash": "18245956971896031199"
+      },
+      {
+        "file": "external/wled/usermods/PWM_fan/usermod_PWM_fan.h",
+        "hash": "7655788759237109951"
+      },
+      {
+        "file": "external/wled/usermods/RTC/readme.md",
+        "hash": "17534402826080167278"
+      },
+      {
+        "file": "external/wled/usermods/RTC/usermod_rtc.h",
+        "hash": "3167953808043341500"
+      },
+      {
+        "file": "external/wled/usermods/RelayBlinds/index.htm",
+        "hash": "1632010438426696481"
+      },
+      {
+        "file": "external/wled/usermods/RelayBlinds/presets.json",
+        "hash": "2278609075003592418"
+      },
+      {
+        "file": "external/wled/usermods/RelayBlinds/readme.md",
+        "hash": "17439134836085091843"
+      },
+      {
+        "file": "external/wled/usermods/RelayBlinds/usermod.cpp",
+        "hash": "8581259428734925005"
+      },
+      {
+        "file": "external/wled/usermods/SN_Photoresistor/readme.md",
+        "hash": "8676634415546275419"
+      },
+      {
+        "file": "external/wled/usermods/SN_Photoresistor/usermod_sn_photoresistor.h",
+        "hash": "10821500318225480380"
+      },
+      {
+        "file": "external/wled/usermods/SN_Photoresistor/usermods_list.cpp",
+        "hash": "12386810342054039736"
+      },
+      {
+        "file": "external/wled/usermods/ST7789_display/README.md",
+        "hash": "13799623493562202183"
+      },
+      {
+        "file": "external/wled/usermods/ST7789_display/ST7789_display.h",
+        "hash": "6049648096217771691"
+      },
+      {
+        "file": "external/wled/usermods/ST7789_display/images/ST7789_Guide.jpg",
+        "hash": "8754538340182718081"
+      },
+      {
+        "file": "external/wled/usermods/Si7021_MQTT_HA/readme.md",
+        "hash": "13377403139019458573"
+      },
+      {
+        "file": "external/wled/usermods/Si7021_MQTT_HA/usermod_si7021_mqtt_ha.h",
+        "hash": "14994117386931249597"
+      },
+      {
+        "file": "external/wled/usermods/TTGO-T-Display/README.md",
+        "hash": "8630304217467797987"
+      },
+      {
+        "file": "external/wled/usermods/TTGO-T-Display/assets/ttgo-tdisplay-enclosure1a.png",
+        "hash": "8661324572899518945"
+      },
+      {
+        "file": "external/wled/usermods/TTGO-T-Display/assets/ttgo-tdisplay-enclosure2a.png",
+        "hash": "16717799456479012795"
+      },
+      {
+        "file": "external/wled/usermods/TTGO-T-Display/assets/ttgo-tdisplay-enclosure3a.png",
+        "hash": "3157331908830974639"
+      },
+      {
+        "file": "external/wled/usermods/TTGO-T-Display/assets/ttgo-tdisplay-enclosure4a.png",
+        "hash": "11769641983379452258"
+      },
+      {
+        "file": "external/wled/usermods/TTGO-T-Display/assets/ttgo_hardware1.png",
+        "hash": "17902852226423053558"
+      },
+      {
+        "file": "external/wled/usermods/TTGO-T-Display/usermod.cpp",
+        "hash": "6337710604138428200"
+      },
+      {
+        "file": "external/wled/usermods/Temperature/readme.md",
+        "hash": "3405870410945324760"
+      },
+      {
+        "file": "external/wled/usermods/Temperature/usermod_temperature.h",
+        "hash": "14800740855372637872"
+      },
+      {
+        "file": "external/wled/usermods/TetrisAI_v2/gridbw.h",
+        "hash": "15661705534051419183"
+      },
+      {
+        "file": "external/wled/usermods/TetrisAI_v2/gridcolor.h",
+        "hash": "9330217647979079701"
+      },
+      {
+        "file": "external/wled/usermods/TetrisAI_v2/pieces.h",
+        "hash": "9146577802388524973"
+      },
+      {
+        "file": "external/wled/usermods/TetrisAI_v2/rating.h",
+        "hash": "8618169174335875273"
+      },
+      {
+        "file": "external/wled/usermods/TetrisAI_v2/readme.md",
+        "hash": "5451093862638944046"
+      },
+      {
+        "file": "external/wled/usermods/TetrisAI_v2/tetrisai.h",
+        "hash": "11264638204369723972"
+      },
+      {
+        "file": "external/wled/usermods/TetrisAI_v2/tetrisaigame.h",
+        "hash": "13786278539918061884"
+      },
+      {
+        "file": "external/wled/usermods/TetrisAI_v2/tetrisbag.h",
+        "hash": "399891603254574052"
+      },
+      {
+        "file": "external/wled/usermods/TetrisAI_v2/usermod_v2_tetrisai.h",
+        "hash": "4990288273801046521"
+      },
+      {
+        "file": "external/wled/usermods/VL53L0X_gestures/readme.md",
+        "hash": "3737547384078102550"
+      },
+      {
+        "file": "external/wled/usermods/VL53L0X_gestures/usermod_vl53l0x_gestures.h",
+        "hash": "8987052117566895921"
+      },
+      {
+        "file": "external/wled/usermods/Wemos_D1_mini+Wemos32_mini_shield/readme.md",
+        "hash": "415117230911565044"
+      },
+      {
+        "file": "external/wled/usermods/Wemos_D1_mini+Wemos32_mini_shield/usermod.cpp",
+        "hash": "7291473682103334064"
+      },
+      {
+        "file": "external/wled/usermods/Wemos_D1_mini+Wemos32_mini_shield/usermod_bme280.cpp",
+        "hash": "878277761447004299"
+      },
+      {
+        "file": "external/wled/usermods/audioreactive/audio_reactive.h",
+        "hash": "6236129827936231587"
+      },
+      {
+        "file": "external/wled/usermods/audioreactive/audio_source.h",
+        "hash": "14024960642529282140"
+      },
+      {
+        "file": "external/wled/usermods/audioreactive/readme.md",
+        "hash": "4690842355810318883"
+      },
+      {
+        "file": "external/wled/usermods/battery_keypad_controller/README.md",
+        "hash": "14814717734644965645"
+      },
+      {
+        "file": "external/wled/usermods/battery_keypad_controller/assets/bat-key-ctrl-1.jpg",
+        "hash": "7965110469764585848"
+      },
+      {
+        "file": "external/wled/usermods/battery_keypad_controller/assets/bat-key-ctrl-2.jpg",
+        "hash": "3120428383333920323"
+      },
+      {
+        "file": "external/wled/usermods/battery_keypad_controller/assets/bat-key-ctrl-3.jpg",
+        "hash": "6024914575503753530"
+      },
+      {
+        "file": "external/wled/usermods/battery_keypad_controller/wled06_usermod.ino",
+        "hash": "12043700661172728787"
+      },
+      {
+        "file": "external/wled/usermods/boblight/boblight.h",
+        "hash": "9954303014243821038"
+      },
+      {
+        "file": "external/wled/usermods/boblight/readme.md",
+        "hash": "6535386086695470017"
+      },
+      {
+        "file": "external/wled/usermods/buzzer/usermod_v2_buzzer.h",
+        "hash": "12222257540333100723"
+      },
+      {
+        "file": "external/wled/usermods/deep_sleep/readme.md",
+        "hash": "12783344495291423655"
+      },
+      {
+        "file": "external/wled/usermods/deep_sleep/usermod_deep_sleep.h",
+        "hash": "10511678893356076333"
+      },
+      {
+        "file": "external/wled/usermods/mpu6050_imu/readme.md",
+        "hash": "11756166439327274338"
+      },
+      {
+        "file": "external/wled/usermods/mpu6050_imu/usermod_gyro_surge.h",
+        "hash": "2843632383149941202"
+      },
+      {
+        "file": "external/wled/usermods/mpu6050_imu/usermod_mpu6050_imu.h",
+        "hash": "6040443600074710999"
+      },
+      {
+        "file": "external/wled/usermods/mqtt_switch_v2/README.md",
+        "hash": "15782141460271320721"
+      },
+      {
+        "file": "external/wled/usermods/mqtt_switch_v2/usermod_mqtt_switch.h",
+        "hash": "17974365626540081607"
+      },
+      {
+        "file": "external/wled/usermods/multi_relay/readme.md",
+        "hash": "6209196002743610205"
+      },
+      {
+        "file": "external/wled/usermods/multi_relay/usermod_multi_relay.h",
+        "hash": "52247428345437997"
+      },
+      {
+        "file": "external/wled/usermods/photoresistor_sensor_mqtt_v1/README.md",
+        "hash": "13537489093277094016"
+      },
+      {
+        "file": "external/wled/usermods/photoresistor_sensor_mqtt_v1/usermod.cpp",
+        "hash": "12075408433733716734"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/README.md",
+        "hash": "17938389022951343597"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/WLED_ESP32_4MB_64KB_FS.csv",
+        "hash": "3942344135426992028"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/dice_state.h",
+        "hash": "2352377218068973081"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/generate_roll_info.py",
+        "hash": "16199125941533312602"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/images/effect.webp",
+        "hash": "146047109768910641"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/images/info.webp",
+        "hash": "12349307546581055635"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/images/roll_plot.png",
+        "hash": "3006940775094421586"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/images/status.webp",
+        "hash": "10992334409599203817"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/led_effects.h",
+        "hash": "505097843245213163"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/mqtt_client/mqtt_logger.py",
+        "hash": "3108716476343310410"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/mqtt_client/mqtt_plotter.py",
+        "hash": "1388038059936649259"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/mqtt_client/requirements.txt",
+        "hash": "10389538522386934395"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/pixels_dice_tray.h",
+        "hash": "2696073402161729514"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/platformio_override.ini.sample",
+        "hash": "18008257940047312016"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/roll_info.h",
+        "hash": "390889594067068722"
+      },
+      {
+        "file": "external/wled/usermods/pixels_dice_tray/tft_menu.h",
+        "hash": "12419997298093469533"
+      },
+      {
+        "file": "external/wled/usermods/pov_display/usermod_pov_display.h",
+        "hash": "18199997575685406746"
+      },
+      {
+        "file": "external/wled/usermods/project_cars_shiftlight/readme.md",
+        "hash": "1094638132769798370"
+      },
+      {
+        "file": "external/wled/usermods/project_cars_shiftlight/wled06_usermod.ino",
+        "hash": "9079819688741744272"
+      },
+      {
+        "file": "external/wled/usermods/pwm_outputs/readme.md",
+        "hash": "1157435299174454719"
+      },
+      {
+        "file": "external/wled/usermods/pwm_outputs/usermod_pwm_outputs.h",
+        "hash": "12352923377970074386"
+      },
+      {
+        "file": "external/wled/usermods/quinled-an-penta/quinled-an-penta.h",
+        "hash": "4534441640457358089"
+      },
+      {
+        "file": "external/wled/usermods/quinled-an-penta/readme.md",
+        "hash": "15908555359201790388"
+      },
+      {
+        "file": "external/wled/usermods/readme.md",
+        "hash": "3520981708625022729"
+      },
+      {
+        "file": "external/wled/usermods/rgb-rotary-encoder/readme.md",
+        "hash": "1977788648535016064"
+      },
+      {
+        "file": "external/wled/usermods/rgb-rotary-encoder/rgb-rotary-encoder.h",
+        "hash": "1232093545161181239"
+      },
+      {
+        "file": "external/wled/usermods/rotary_encoder_change_effect/wled06_usermod.ino",
+        "hash": "6434801942765658569"
+      },
+      {
+        "file": "external/wled/usermods/sd_card/readme.md",
+        "hash": "5999785841446679051"
+      },
+      {
+        "file": "external/wled/usermods/sd_card/usermod_sd_card.h",
+        "hash": "11192925517976208562"
+      },
+      {
+        "file": "external/wled/usermods/sensors_to_mqtt/readme.md",
+        "hash": "11554853513347805628"
+      },
+      {
+        "file": "external/wled/usermods/sensors_to_mqtt/usermod_v2_SensorsToMqtt.h",
+        "hash": "260582834395959503"
+      },
+      {
+        "file": "external/wled/usermods/seven_segment_display/readme.md",
+        "hash": "8055224870720423899"
+      },
+      {
+        "file": "external/wled/usermods/seven_segment_display/usermod_v2_seven_segment_display.h",
+        "hash": "16300579864218866872"
+      },
+      {
+        "file": "external/wled/usermods/seven_segment_display_reloaded/readme.md",
+        "hash": "17441019321967217294"
+      },
+      {
+        "file": "external/wled/usermods/seven_segment_display_reloaded/usermod_seven_segment_reloaded.h",
+        "hash": "2194573023869717559"
+      },
+      {
+        "file": "external/wled/usermods/sht/readme.md",
+        "hash": "8387101147750219903"
+      },
+      {
+        "file": "external/wled/usermods/sht/usermod_sht.h",
+        "hash": "3163368648220427681"
+      },
+      {
+        "file": "external/wled/usermods/smartnest/readme.md",
+        "hash": "1165211508581824524"
+      },
+      {
+        "file": "external/wled/usermods/smartnest/usermod_smartnest.h",
+        "hash": "7668612858822093562"
+      },
+      {
+        "file": "external/wled/usermods/stairway_wipe_basic/readme.md",
+        "hash": "5945057697340659386"
+      },
+      {
+        "file": "external/wled/usermods/stairway_wipe_basic/stairway-wipe-usermod-v2.h",
+        "hash": "13096558694282579104"
+      },
+      {
+        "file": "external/wled/usermods/usermod_rotary_brightness_color/README.md",
+        "hash": "16176939083833663644"
+      },
+      {
+        "file": "external/wled/usermods/usermod_rotary_brightness_color/usermod_rotary_brightness_color.h",
+        "hash": "8615505666580479023"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_HttpPullLightControl/readme.md",
+        "hash": "3177289835632677271"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_HttpPullLightControl/usermod_v2_HttpPullLightControl.cpp",
+        "hash": "18091180454895784185"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_HttpPullLightControl/usermod_v2_HttpPullLightControl.h",
+        "hash": "17190068141208876806"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_RF433/readme.md",
+        "hash": "1090559142381678073"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_RF433/remote433.json",
+        "hash": "11464889099612196364"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_RF433/usermod_v2_RF433.h",
+        "hash": "1656640448673485039"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_animartrix/readme.md",
+        "hash": "8465460160551700799"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_animartrix/usermod_v2_animartrix.h",
+        "hash": "12838855288579793637"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_auto_save/readme.md",
+        "hash": "15345580279444372561"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_auto_save/usermod_v2_auto_save.h",
+        "hash": "5430598498751518098"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_brightness_follow_sun/README.md",
+        "hash": "5143362126653691340"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_brightness_follow_sun/usermod_v2_brightness_follow_sun.h",
+        "hash": "12260167683709687504"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_four_line_display_ALT/4LD_wled_fonts.c",
+        "hash": "4368029606580159146"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_four_line_display_ALT/platformio_override.sample.ini",
+        "hash": "4754178795018035091"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_four_line_display_ALT/readme.md",
+        "hash": "17351222034264641559"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_four_line_display_ALT/usermod_v2_four_line_display_ALT.h",
+        "hash": "6743579959857185763"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_klipper_percentage/readme.md",
+        "hash": "6996485382946125542"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_klipper_percentage/usermod_v2_klipper_percentage.h",
+        "hash": "1936824316773708917"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_ping_pong_clock/readme.md",
+        "hash": "9100916457408765561"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_ping_pong_clock/usermod_v2_ping_pong_clock.h",
+        "hash": "16306261035845679380"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_rotary_encoder_ui_ALT/platformio_override.sample.ini",
+        "hash": "2755684590703746187"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_rotary_encoder_ui_ALT/readme.md",
+        "hash": "6125774886622720532"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_rotary_encoder_ui_ALT/usermod_v2_rotary_encoder_ui_ALT.h",
+        "hash": "5622639103492230532"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_word_clock/readme.md",
+        "hash": "7766065120581831813"
+      },
+      {
+        "file": "external/wled/usermods/usermod_v2_word_clock/usermod_v2_word_clock.h",
+        "hash": "16336636442266109007"
+      },
+      {
+        "file": "external/wled/usermods/wireguard/readme.md",
+        "hash": "1961694638365849334"
+      },
+      {
+        "file": "external/wled/usermods/wireguard/wireguard.h",
+        "hash": "16294718080075504800"
+      },
+      {
+        "file": "external/wled/usermods/wizlights/readme.md",
+        "hash": "7620169717632067814"
+      },
+      {
+        "file": "external/wled/usermods/wizlights/wizlights.h",
+        "hash": "2746591952691345756"
+      },
+      {
+        "file": "external/wled/usermods/word-clock-matrix/Word Clock Baffle.stl",
+        "hash": "2999866995028506406"
+      },
+      {
+        "file": "external/wled/usermods/word-clock-matrix/readme.md",
+        "hash": "3530646677149782824"
+      },
+      {
+        "file": "external/wled/usermods/word-clock-matrix/usermod_word_clock_matrix.h",
+        "hash": "16714403702610286600"
+      },
+      {
+        "file": "external/wled/usermods/word-clock-matrix/word clock stencil.svg",
+        "hash": "10610731301905991647"
+      },
+      {
+        "file": "external/wled/wled00/FX.cpp",
+        "hash": "8762991871460472959"
+      },
+      {
+        "file": "external/wled/wled00/FX.h",
+        "hash": "8678796223133269872"
+      },
+      {
+        "file": "external/wled/wled00/FX_2Dfcn.cpp",
+        "hash": "4447460600765633491"
+      },
+      {
+        "file": "external/wled/wled00/FX_fcn.cpp",
+        "hash": "16368798949581941633"
+      },
+      {
+        "file": "external/wled/wled00/FXparticleSystem.cpp",
+        "hash": "8828928554035191770"
+      },
+      {
+        "file": "external/wled/wled00/FXparticleSystem.h",
+        "hash": "904907192026843843"
+      },
+      {
+        "file": "external/wled/wled00/NodeStruct.h",
+        "hash": "8920181390259846013"
+      },
+      {
+        "file": "external/wled/wled00/alexa.cpp",
+        "hash": "13502093280128671967"
+      },
+      {
+        "file": "external/wled/wled00/bus_manager.cpp",
+        "hash": "353086108656028989"
+      },
+      {
+        "file": "external/wled/wled00/bus_manager.h",
+        "hash": "12615844575814935167"
+      },
+      {
+        "file": "external/wled/wled00/bus_wrapper.h",
+        "hash": "13224448213507324973"
+      },
+      {
+        "file": "external/wled/wled00/button.cpp",
+        "hash": "17114961142505666658"
+      },
+      {
+        "file": "external/wled/wled00/cfg.cpp",
+        "hash": "1759723749633595177"
+      },
+      {
+        "file": "external/wled/wled00/colors.cpp",
+        "hash": "10119920267345892126"
+      },
+      {
+        "file": "external/wled/wled00/const.h",
+        "hash": "10799220491267900101"
+      },
+      {
+        "file": "external/wled/wled00/data/404.htm",
+        "hash": "14122843656465886427"
+      },
+      {
+        "file": "external/wled/wled00/data/common.js",
+        "hash": "6124515664592482406"
+      },
+      {
+        "file": "external/wled/wled00/data/cpal/cpal.htm",
+        "hash": "13248707611525600153"
+      },
+      {
+        "file": "external/wled/wled00/data/dmxmap.htm",
+        "hash": "834068702386670317"
+      },
+      {
+        "file": "external/wled/wled00/data/edit.htm",
+        "hash": "15335836806950532026"
+      },
+      {
+        "file": "external/wled/wled00/data/favicon.ico",
+        "hash": "3995365390140276373"
+      },
+      {
+        "file": "external/wled/wled00/data/icons-ui/Read Me.txt",
+        "hash": "16926644038414715480"
+      },
+      {
+        "file": "external/wled/wled00/data/icons-ui/demo-files/demo.css",
+        "hash": "12371672839371465960"
+      },
+      {
+        "file": "external/wled/wled00/data/icons-ui/demo-files/demo.js",
+        "hash": "18291803720405162545"
+      },
+      {
+        "file": "external/wled/wled00/data/icons-ui/demo.html",
+        "hash": "9390469438299889345"
+      },
+      {
+        "file": "external/wled/wled00/data/icons-ui/fonts/wled122.woff",
+        "hash": "4291951117210108010"
+      },
+      {
+        "file": "external/wled/wled00/data/icons-ui/fonts/wled122.woff2",
+        "hash": "2439095579903626948"
+      },
+      {
+        "file": "external/wled/wled00/data/icons-ui/selection.json",
+        "hash": "12349505796969105072"
+      },
+      {
+        "file": "external/wled/wled00/data/icons-ui/style.css",
+        "hash": "7102257709436153951"
+      },
+      {
+        "file": "external/wled/wled00/data/index.css",
+        "hash": "15398759076660226442"
+      },
+      {
+        "file": "external/wled/wled00/data/index.htm",
+        "hash": "12653550756362267104"
+      },
+      {
+        "file": "external/wled/wled00/data/index.js",
+        "hash": "6748474023111315323"
+      },
+      {
+        "file": "external/wled/wled00/data/iro.js",
+        "hash": "4159343366793498594"
+      },
+      {
+        "file": "external/wled/wled00/data/liveview.htm",
+        "hash": "13768101973484584910"
+      },
+      {
+        "file": "external/wled/wled00/data/liveviewws2D.htm",
+        "hash": "9649173819502628675"
+      },
+      {
+        "file": "external/wled/wled00/data/msg.htm",
+        "hash": "11966018049366992782"
+      },
+      {
+        "file": "external/wled/wled00/data/pixart/boxdraw.js",
+        "hash": "9005788306718527119"
+      },
+      {
+        "file": "external/wled/wled00/data/pixart/favicon-16x16.png",
+        "hash": "205827847313297912"
+      },
+      {
+        "file": "external/wled/wled00/data/pixart/favicon-32x32.png",
+        "hash": "7551456634429308453"
+      },
+      {
+        "file": "external/wled/wled00/data/pixart/favicon.ico",
+        "hash": "5370353139192652431"
+      },
+      {
+        "file": "external/wled/wled00/data/pixart/getPixelValues.js",
+        "hash": "6745291455325021097"
+      },
+      {
+        "file": "external/wled/wled00/data/pixart/pixart.css",
+        "hash": "9501075596346036497"
+      },
+      {
+        "file": "external/wled/wled00/data/pixart/pixart.htm",
+        "hash": "1371877419182646027"
+      },
+      {
+        "file": "external/wled/wled00/data/pixart/pixart.js",
+        "hash": "9772352321632413177"
+      },
+      {
+        "file": "external/wled/wled00/data/pixart/site.webmanifest",
+        "hash": "16300907636808939728"
+      },
+      {
+        "file": "external/wled/wled00/data/pixart/statics.js",
+        "hash": "7588578546505350530"
+      },
+      {
+        "file": "external/wled/wled00/data/pxmagic/pxmagic.htm",
+        "hash": "12308262687846804932"
+      },
+      {
+        "file": "external/wled/wled00/data/rangetouch.js",
+        "hash": "10996904155160822875"
+      },
+      {
+        "file": "external/wled/wled00/data/settings.htm",
+        "hash": "9045795036384834835"
+      },
+      {
+        "file": "external/wled/wled00/data/settings_2D.htm",
+        "hash": "3201114894531595890"
+      },
+      {
+        "file": "external/wled/wled00/data/settings_dmx.htm",
+        "hash": "13508061526204925839"
+      },
+      {
+        "file": "external/wled/wled00/data/settings_leds.htm",
+        "hash": "18209587436360232907"
+      },
+      {
+        "file": "external/wled/wled00/data/settings_pin.htm",
+        "hash": "10562096605018980492"
+      },
+      {
+        "file": "external/wled/wled00/data/settings_sec.htm",
+        "hash": "8738562907864284591"
+      },
+      {
+        "file": "external/wled/wled00/data/settings_sync.htm",
+        "hash": "9857913499920750873"
+      },
+      {
+        "file": "external/wled/wled00/data/settings_time.htm",
+        "hash": "14514958021636708935"
+      },
+      {
+        "file": "external/wled/wled00/data/settings_ui.htm",
+        "hash": "16473433424957725254"
+      },
+      {
+        "file": "external/wled/wled00/data/settings_um.htm",
+        "hash": "16074879158549505867"
+      },
+      {
+        "file": "external/wled/wled00/data/settings_wifi.htm",
+        "hash": "6188238627717999739"
+      },
+      {
+        "file": "external/wled/wled00/data/style.css",
+        "hash": "13365525499118892372"
+      },
+      {
+        "file": "external/wled/wled00/data/update.htm",
+        "hash": "5259964730630531382"
+      },
+      {
+        "file": "external/wled/wled00/data/usermod.htm",
+        "hash": "15084150034582712320"
+      },
+      {
+        "file": "external/wled/wled00/data/welcome.htm",
+        "hash": "10619473337410000751"
+      },
+      {
+        "file": "external/wled/wled00/dmx_input.cpp",
+        "hash": "2115486135042821011"
+      },
+      {
+        "file": "external/wled/wled00/dmx_input.h",
+        "hash": "13434030521193024047"
+      },
+      {
+        "file": "external/wled/wled00/dmx_output.cpp",
+        "hash": "9858605584276723838"
+      },
+      {
+        "file": "external/wled/wled00/e131.cpp",
+        "hash": "16294017826030686403"
+      },
+      {
+        "file": "external/wled/wled00/fcn_declare.h",
+        "hash": "9776391469235060817"
+      },
+      {
+        "file": "external/wled/wled00/file.cpp",
+        "hash": "3589920990036784078"
+      },
+      {
+        "file": "external/wled/wled00/hue.cpp",
+        "hash": "14882441857565396396"
+      },
+      {
+        "file": "external/wled/wled00/image_loader.cpp",
+        "hash": "17912878243584178507"
+      },
+      {
+        "file": "external/wled/wled00/improv.cpp",
+        "hash": "14656969510576036811"
+      },
+      {
+        "file": "external/wled/wled00/ir.cpp",
+        "hash": "2838194684375825050"
+      },
+      {
+        "file": "external/wled/wled00/ir_codes.h",
+        "hash": "5922619337429351424"
+      },
+      {
+        "file": "external/wled/wled00/json.cpp",
+        "hash": "12307607602192702484"
+      },
+      {
+        "file": "external/wled/wled00/led.cpp",
+        "hash": "7689393052455298182"
+      },
+      {
+        "file": "external/wled/wled00/lx_parser.cpp",
+        "hash": "12360741970396011383"
+      },
+      {
+        "file": "external/wled/wled00/mqtt.cpp",
+        "hash": "9902275735454602944"
+      },
+      {
+        "file": "external/wled/wled00/my_config_sample.h",
+        "hash": "12838670205072021105"
+      },
+      {
+        "file": "external/wled/wled00/net_debug.cpp",
+        "hash": "5152845130701951978"
+      },
+      {
+        "file": "external/wled/wled00/net_debug.h",
+        "hash": "6639711592979484733"
+      },
+      {
+        "file": "external/wled/wled00/network.cpp",
+        "hash": "11880806577404766437"
+      },
+      {
+        "file": "external/wled/wled00/ntp.cpp",
+        "hash": "8167619548798174929"
+      },
+      {
+        "file": "external/wled/wled00/overlay.cpp",
+        "hash": "4131632932470033739"
+      },
+      {
+        "file": "external/wled/wled00/palettes.h",
+        "hash": "9515192335191227730"
+      },
+      {
+        "file": "external/wled/wled00/pin_manager.cpp",
+        "hash": "9654828211507207526"
+      },
+      {
+        "file": "external/wled/wled00/pin_manager.h",
+        "hash": "1009274783561308922"
+      },
+      {
+        "file": "external/wled/wled00/playlist.cpp",
+        "hash": "440794655950736152"
+      },
+      {
+        "file": "external/wled/wled00/presets.cpp",
+        "hash": "2872446720520655828"
+      },
+      {
+        "file": "external/wled/wled00/remote.cpp",
+        "hash": "3536788144151079290"
+      },
+      {
+        "file": "external/wled/wled00/set.cpp",
+        "hash": "13558660730956081354"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient.cpp",
+        "hash": "15643657485192263104"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient.h",
+        "hash": "3348971846557437999"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient.hpp",
+        "hash": "12637081467521269375"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Callbacks.hpp",
+        "hash": "15632637966669003785"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/DisconnectReasons.hpp",
+        "hash": "18394906173513610584"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Flags.hpp",
+        "hash": "14426805286930968038"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Helpers.hpp",
+        "hash": "6782379504615949313"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/MessageProperties.hpp",
+        "hash": "14379093977699195569"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/ConnAckPacket.cpp",
+        "hash": "11501852553011796601"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/ConnAckPacket.hpp",
+        "hash": "14459672111242987391"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/Packet.hpp",
+        "hash": "4896309881498119369"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PingRespPacket.cpp",
+        "hash": "14127199201517851026"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PingRespPacket.hpp",
+        "hash": "1476750329991170291"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubAckPacket.cpp",
+        "hash": "16001541215678417361"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubAckPacket.hpp",
+        "hash": "13405125718881619848"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubCompPacket.cpp",
+        "hash": "10748244297974375561"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubCompPacket.hpp",
+        "hash": "14240403655245396344"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubRecPacket.cpp",
+        "hash": "10417641048510673145"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubRecPacket.hpp",
+        "hash": "9301148258615986697"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubRelPacket.cpp",
+        "hash": "9082628631229840583"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PubRelPacket.hpp",
+        "hash": "17490501733047484784"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PublishPacket.cpp",
+        "hash": "15258440388083691371"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/PublishPacket.hpp",
+        "hash": "10229192110942095738"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/SubAckPacket.cpp",
+        "hash": "8058788472775241910"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/SubAckPacket.hpp",
+        "hash": "12887306667176709168"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/UnsubAckPacket.cpp",
+        "hash": "16246671728200091730"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Packets/UnsubAckPacket.hpp",
+        "hash": "11593236044948560234"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/ParsingInformation.hpp",
+        "hash": "2925420119948996622"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/AsyncMqttClient/Storage.hpp",
+        "hash": "7404442079814294347"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/LICENSE",
+        "hash": "7239191264343566122"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/async-mqtt-client/README.md",
+        "hash": "14259500959049781212"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/dmx/ESPDMX.cpp",
+        "hash": "4080634389663746280"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/dmx/ESPDMX.h",
+        "hash": "11725363359803429808"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/dmx/LICENSE.md",
+        "hash": "12594231274130195609"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/dmx/SparkFunDMX.cpp",
+        "hash": "10955812997433129864"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/dmx/SparkFunDMX.h",
+        "hash": "6947829193066615567"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/e131/ESPAsyncE131.cpp",
+        "hash": "1722703777200392154"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/e131/ESPAsyncE131.h",
+        "hash": "9088258011523876039"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/espalexa/Espalexa.h",
+        "hash": "11885522259338744202"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/espalexa/EspalexaDevice.cpp",
+        "hash": "7498141103224608603"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/espalexa/EspalexaDevice.h",
+        "hash": "14816693659390876209"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/espalexa/LICENSE",
+        "hash": "4553614068405405845"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/json/ArduinoJson-v6.h",
+        "hash": "3449675592879580227"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/json/AsyncJson-v6.h",
+        "hash": "5853214973851514851"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/network/Network.cpp",
+        "hash": "3744147409365364740"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/network/Network.h",
+        "hash": "439610167424648987"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/time/DS1307RTC.cpp",
+        "hash": "14182159413101521264"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/time/DS1307RTC.h",
+        "hash": "6716783719523090857"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/time/DateStrings.cpp",
+        "hash": "18424601381670485423"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/time/LICENSE.txt",
+        "hash": "11628291650693616707"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/time/Readme.txt",
+        "hash": "12754057430324027879"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/time/Time.cpp",
+        "hash": "2915597520649291938"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/time/TimeLib.h",
+        "hash": "5557109706869686603"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/time/library.json",
+        "hash": "15275049452052898818"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/time/library.properties",
+        "hash": "10091362909943858907"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/timezone/LICENSE.md",
+        "hash": "17607195072383358707"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/timezone/ReadMe.md",
+        "hash": "3146159151069659152"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/timezone/Timezone.cpp",
+        "hash": "2426904461582733035"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/timezone/Timezone.h",
+        "hash": "18272474840784000453"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/toki/Toki.h",
+        "hash": "676418184090277290"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/ws2812fx/LICENSE.txt",
+        "hash": "7412546163729395712"
+      },
+      {
+        "file": "external/wled/wled00/src/dependencies/ws2812fx/readme.txt",
+        "hash": "4040056205763585142"
+      },
+      {
+        "file": "external/wled/wled00/src/font/console_font_4x6.h",
+        "hash": "13784739995831300160"
+      },
+      {
+        "file": "external/wled/wled00/src/font/console_font_5x12.h",
+        "hash": "18111338805327177077"
+      },
+      {
+        "file": "external/wled/wled00/src/font/console_font_5x8.h",
+        "hash": "608562387737091192"
+      },
+      {
+        "file": "external/wled/wled00/src/font/console_font_6x8.h",
+        "hash": "9314542528423195082"
+      },
+      {
+        "file": "external/wled/wled00/src/font/console_font_7x9.h",
+        "hash": "6867526358267905735"
+      },
+      {
+        "file": "external/wled/wled00/udp.cpp",
+        "hash": "7948465179700360346"
+      },
+      {
+        "file": "external/wled/wled00/um_manager.cpp",
+        "hash": "9612328371060639641"
+      },
+      {
+        "file": "external/wled/wled00/usermod.cpp",
+        "hash": "10042785132372445653"
+      },
+      {
+        "file": "external/wled/wled00/usermod_v2_empty.h",
+        "hash": "12419812631666121615"
+      },
+      {
+        "file": "external/wled/wled00/usermods_list.cpp",
+        "hash": "9879785101427959171"
+      },
+      {
+        "file": "external/wled/wled00/util.cpp",
+        "hash": "15159341267992483777"
+      },
+      {
+        "file": "external/wled/wled00/wled.cpp",
+        "hash": "9604854438257944731"
+      },
+      {
+        "file": "external/wled/wled00/wled.h",
+        "hash": "12706444632274184494"
+      },
+      {
+        "file": "external/wled/wled00/wled_eeprom.cpp",
+        "hash": "2827104409048136964"
+      },
+      {
+        "file": "external/wled/wled00/wled_ethernet.h",
+        "hash": "14480899931201977090"
+      },
+      {
+        "file": "external/wled/wled00/wled_main.cpp",
+        "hash": "4829418743349900462"
+      },
+      {
+        "file": "external/wled/wled00/wled_math.cpp",
+        "hash": "603404294358274163"
+      },
+      {
+        "file": "external/wled/wled00/wled_serial.cpp",
+        "hash": "15350199865839513551"
+      },
+      {
+        "file": "external/wled/wled00/wled_server.cpp",
+        "hash": "508219409762486117"
+      },
+      {
+        "file": "external/wled/wled00/ws.cpp",
+        "hash": "5844511034535457618"
+      },
+      {
+        "file": "external/wled/wled00/xml.cpp",
+        "hash": "1019915233786416523"
+      },
+      {
+        "file": "ignis-wled-controller.code-workspace",
+        "hash": "4117267442761913948"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6878623140180709055"
+      },
+      {
+        "file": "package.json",
+        "hash": "11656115497265043536"
+      },
+      {
+        "file": "packages/README.md",
+        "hash": "8336707698588599769"
+      }
+    ]
+  }
+}

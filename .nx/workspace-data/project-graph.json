@@ -1,0 +1,221 @@
+{
+  "nodes": {
+    "shared": {
+      "name": "shared",
+      "type": "lib",
+      "data": {
+        "root": "packages/shared",
+        "name": "shared",
+        "projectType": "library",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "build",
+              "test",
+              "lint"
+            ]
+          },
+          "js": {
+            "packageName": "shared",
+            "packageMain": "dist/index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "metadata": {
+              "scriptContent": "tsc",
+              "runCommand": "npm run build"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "production",
+              "^production"
+            ]
+          },
+          "test": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test"
+            },
+            "metadata": {
+              "scriptContent": "jest",
+              "runCommand": "npm run test"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ]
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "eslint .",
+              "runCommand": "npm run lint"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore"
+            ]
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "expo-app": {
+      "name": "expo-app",
+      "type": "app",
+      "data": {
+        "root": "apps/expo-app",
+        "name": "expo-app",
+        "projectType": "application",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "start",
+              "reset-project",
+              "android",
+              "ios",
+              "web",
+              "test",
+              "lint"
+            ]
+          },
+          "js": {
+            "packageName": "expo-app",
+            "packageMain": "expo-router/entry",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start"
+            },
+            "metadata": {
+              "scriptContent": "expo start",
+              "runCommand": "npm run start"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "reset-project": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "reset-project"
+            },
+            "metadata": {
+              "scriptContent": "node ./scripts/reset-project.js",
+              "runCommand": "npm run reset-project"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "android": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "android"
+            },
+            "metadata": {
+              "scriptContent": "expo start --android",
+              "runCommand": "npm run android"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "ios": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "ios"
+            },
+            "metadata": {
+              "scriptContent": "expo start --ios",
+              "runCommand": "npm run ios"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "web": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "web"
+            },
+            "metadata": {
+              "scriptContent": "expo start --web",
+              "runCommand": "npm run web"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test"
+            },
+            "metadata": {
+              "scriptContent": "jest --watchAll",
+              "runCommand": "npm run test"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ]
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "expo lint",
+              "runCommand": "npm run lint"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore"
+            ]
+          }
+        },
+        "implicitDependencies": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "shared": [],
+    "expo-app": []
+  },
+  "version": "6.0",
+  "errors": [],
+  "computedAt": 1742722230329
+}
