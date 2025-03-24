@@ -5,6 +5,7 @@
   "scripts": {
     "start": "bunx expo start -c",
     "reset-project": "node ./scripts/reset-project.js",
+    "check:tamagui": "tamagui check",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
@@ -24,6 +25,7 @@
     "@tamagui/babel-plugin": "^1.125.26",
     "@tamagui/config": "^1.125.26",
     "@tamagui/font-inter": "^1.125.26",
+    "@tamagui/toast": "^1.125.26",
     "expo": "^52.0.40",
     "expo-blur": "~14.0.3",
     "expo-constants": "~17.0.7",
