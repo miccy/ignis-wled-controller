@@ -1,6 +1,9 @@
 import { createInterFont } from "@tamagui/font-inter";
 import { defaultConfig } from "@tamagui/config/v4";
 import { createTamagui } from "tamagui";
+import { shorthands } from "@tamagui/shorthands";
+import { themes, tokens } from "@tamagui/themes";
+import { createMedia } from "@tamagui/react-native-media-driver";
 
 export const tamaguiConfig = createTamagui(defaultConfig);
 
@@ -70,7 +73,7 @@ export const config = createTamagui({
   tokens,
   themes,
   shorthands,
-  mediaQueryDefaultActive: true,
+  mediaQueryDefaultActive: { sm: true, md: true, lg: true, xl: true },
   media: createMedia({
     sm: { maxWidth: 650 },
     md: { maxWidth: 1200 },
