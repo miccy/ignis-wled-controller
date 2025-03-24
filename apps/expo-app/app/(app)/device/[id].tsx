@@ -12,15 +12,15 @@ import {
 } from "react-native";
 import { useLocalSearchParams, Stack, useRouter } from "expo-router";
 import Slider from "@react-native-community/slider";
-import { useDeviceStore } from "../../stores/device-store";
-import { Tabs } from "../../components/ui/Tabs";
-import { ColorPickerComponent } from "../../components/device/ColorPicker";
-import { EffectList } from "../../components/device/EffectList";
-import { SegmentEditor } from "../../components/device/SegmentEditor";
-import { observer } from '@legendapp/state/react';
-import { Motion } from '@legendapp/motion';
-import { devices$, selectedDeviceState$ } from '../../state/devices';
-import { BrightnessSlider } from '../../components/device/BrightnessSlider';
+import { useDeviceStore } from "@stores/device-store";
+import { Tabs } from "@components/ui/Tabs";
+import { ColorPickerComponent } from "@components/device/ColorPicker";
+import { EffectList } from "@components/device/EffectList";
+import { SegmentEditor } from "@components/device/SegmentEditor";
+import { observer } from "@legendapp/state/react";
+import { Motion } from "@legendapp/motion";
+import { devices$, selectedDeviceState$ } from "@state/devices";
+import { BrightnessSlider } from "@components/device/BrightnessSlider";
 
 export default observer(function DeviceScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -59,9 +59,9 @@ export default observer(function DeviceScreen() {
     return (
       <SafeAreaView className="flex-1 bg-gray-900 justify-center items-center p-4">
         <Text className="text-red-400 text-center mb-4">
-          {error || 'Zařízení nenalezeno'}
+          {error || "Zařízení nenalezeno"}
         </Text>
-        <Motion.View 
+        <Motion.View
           className="bg-blue-600 px-6 py-3 rounded-full"
           whileTap={{ scale: 0.95 }}
           onTouchEnd={() => router.back()}
@@ -106,7 +106,7 @@ export default observer(function DeviceScreen() {
   return (
     <SafeAreaView className="flex-1 bg-gray-900">
       <StatusBar barStyle="light-content" />
-      
+
       <View className="p-4 flex-1">
         <Text className="text-white text-2xl font-bold mb-2">
           {device.name}
@@ -114,52 +114,52 @@ export default observer(function DeviceScreen() {
         <Text className="text-gray-400 mb-6">
           {device.address} • v{device.version}
         </Text>
-        
+
         {deviceState ? (
           <View className="space-y-6">
             {/* Power toggle */}
-            <Motion.View 
-              className={`p-4 rounded-xl ${deviceState.on ? 'bg-blue-600' : 'bg-gray-700'}`}
+            <Motion.View
+              className={`p-4 rounded-xl ${deviceState.on ? "bg-blue-600" : "bg-gray-700"}`}
               whileTap={{ scale: 0.98 }}
               onTouchEnd={() => {
                 // Logika pro zapnutí/vypnutí bude implementována později
               }}
             >
               <Text className="text-white text-center text-lg font-medium">
-                {deviceState.on ? 'Vypnout' : 'Zapnout'}
+                {deviceState.on ? "Vypnout" : "Zapnout"}
               </Text>
             </Motion.View>
-            
+
             {/* Brightness slider */}
             <View className="bg-gray-800 p-4 rounded-xl">
               <Text className="text-white mb-2">Jas: {deviceState.bri}</Text>
-              <BrightnessSlider 
-                value={deviceState.bri} 
-                onChange={(value) => {
+              <BrightnessSlider
+                value={deviceState.bri}
+                onChange={value => {
                   // Logika pro změnu jasu bude implementována později
-                }} 
+                }}
               />
             </View>
-            
+
             {/* Controls */}
             <View className="flex-row justify-between">
-              <Motion.View 
+              <Motion.View
                 className="flex-1 mr-2 bg-gray-800 p-4 rounded-xl items-center"
                 whileTap={{ scale: 0.95 }}
                 onTouchEnd={() => router.push(`/device/colors?id=${id}`)}
               >
                 <Text className="text-white">Barvy</Text>
               </Motion.View>
-              
-              <Motion.View 
+
+              <Motion.View
                 className="flex-1 mx-1 bg-gray-800 p-4 rounded-xl items-center"
                 whileTap={{ scale: 0.95 }}
                 onTouchEnd={() => router.push(`/device/effects?id=${id}`)}
               >
                 <Text className="text-white">Efekty</Text>
               </Motion.View>
-              
-              <Motion.View 
+
+              <Motion.View
                 className="flex-1 ml-2 bg-gray-800 p-4 rounded-xl items-center"
                 whileTap={{ scale: 0.95 }}
                 onTouchEnd={() => router.push(`/device/segments?id=${id}`)}
@@ -176,7 +176,7 @@ export default observer(function DeviceScreen() {
       </View>
     </SafeAreaView>
   );
-}
+});
 
 const styles = StyleSheet.create({
   container: {

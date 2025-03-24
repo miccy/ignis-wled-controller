@@ -5,8 +5,8 @@ import { observer } from "@legendapp/state/react";
 import { Motion } from "@legendapp/motion";
 import { List } from "@legendapp/list";
 import { Link } from "expo-router";
-import { devices$ } from "../../state/devices";
-import { useDebouncedCallback } from "../../lib/hooks/useDebounce";
+import { devices$ } from "@/state/devices";
+import { useDebouncedCallback } from "@/lib/hooks/useDebounce";
 
 export default observer(function DevicesScreen() {
   const devicesList = devices$.list.get();

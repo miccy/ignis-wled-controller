@@ -1,20 +1,32 @@
-module.exports = (api) => {
-  api.cache(true)
+module.exports = api => {
+  api.cache(true);
   return {
-    presets: [['babel-preset-expo', { jsxRuntime: 'automatic' }]],
+    presets: [["babel-preset-expo", { jsxRuntime: "automatic" }]],
     plugins: [
       [
-        '@tamagui/babel-plugin',
+        "@tamagui/babel-plugin",
         {
-          components: ['tamagui'],
-          config: './tamagui.config.ts',
+          components: ["tamagui"],
+          config: "./tamagui.config.ts",
           logTimings: true,
-          disableExtraction: process.env.NODE_ENV === 'development',
-        },
+          disableExtraction: process.env.NODE_ENV === "development"
+        }
+      ],
+
+      // Přidáváme resolver pro aliasy cest
+      [
+        "module-resolver",
+        {
+          alias: {
+            "@state": "./state",
+            "@components": "./components",
+            "@stores": "./stores"
+          }
+        }
       ],
 
       // NOTE: this is only necessary if you are using reanimated for animations
-      'react-native-reanimated/plugin',
-    ],
-  }
-}
+      "react-native-reanimated/plugin"
+    ]
+  };
+};

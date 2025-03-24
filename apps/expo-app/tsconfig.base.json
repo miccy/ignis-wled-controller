@@ -26,7 +26,12 @@
     "strictNullChecks": true,
     "target": "es2020",
     "types": ["node"],
-    "lib": ["dom", "esnext"]
+    "lib": ["dom", "esnext"],
+    "paths": {
+      "@state/*": ["./state/*"],
+      "@components/*": ["./components/*"],
+      "@stores/*": ["./stores/*"]
+    }
   },
   "exclude": ["_"],
   "typeAcquisition": {
