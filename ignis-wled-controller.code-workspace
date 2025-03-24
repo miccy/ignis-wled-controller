@@ -8,7 +8,7 @@
       "name": "Expo App (new)",
       "path": "./apps/expo-app"
     },
-    {
+    /* {
       "name": "Docs (new)",
       "path": "./docs"
     },
@@ -27,6 +27,6 @@
     {
       "name": "WLED Library (forked)",
       "path": "./external/wled"
-    }
+    } */
   ]
 }

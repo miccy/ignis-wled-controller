@@ -1,39 +1,37 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { useFonts } from 'expo-font';
+import React, { useEffect } from 'react';
 import { Stack } from 'expo-router';
-import * as SplashScreen from 'expo-splash-screen';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
-import { useEffect } from 'react';
-import 'react-native-reanimated';
+import { observer } from '@legendapp/state/react';
+import { configureMotion } from '@legendapp/motion';
+import { settings$ } from '../state/settings';
 
-import { useColorScheme } from '@/hooks/useColorScheme';
+// Konfigurace Legend Motion pro použití s NativeWind
+// Pokud budeme později používat NativeWind
+// configureMotion({ styled });
 
-// Prevent the splash screen from auto-hiding before asset loading is complete.
-SplashScreen.preventAutoHideAsync();
-
-export default function RootLayout() {
-  const colorScheme = useColorScheme();
-  const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
-  });
-
-  useEffect(() => {
-    if (loaded) {
-      SplashScreen.hideAsync();
-    }
-  }, [loaded]);
-
-  if (!loaded) {
-    return null;
-  }
+export default observer(function RootLayout() {
+  const theme = settings$.theme.get();
+  const isDarkMode = theme === 'dark' || 
+    (theme === 'system' && /* zde by bylo detekování systémového tématu */true);
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
+    <SafeAreaProvider>
+      <StatusBar style={isDarkMode ? 'light' : 'dark'} />
+      <Stack
+        screenOptions={{
+          headerStyle: {
+            backgroundColor: isDarkMode ? '#121212' : '#ffffff',
+          },
+          headerTintColor: isDarkMode ? '#ffffff' : '#000000',
+          contentStyle: {
+            backgroundColor: isDarkMode ? '#121212' : '#f5f5f5',
+          },
+        }}
+      >
+        <Stack.Screen name="(onboarding)" options={{ headerShown: false }} />
+        <Stack.Screen name="(app)" options={{ headerShown: false }} />
       </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
+    </SafeAreaProvider>
   );
-}
+});

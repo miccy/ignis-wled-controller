@@ -32,7 +32,7 @@
             },
             "metadata": {
               "scriptContent": "tsc",
-              "runCommand": "npm run build"
+              "runCommand": "bun run build -- undefined"
             },
             "configurations": {},
             "parallelism": true,
@@ -51,7 +51,7 @@
             },
             "metadata": {
               "scriptContent": "jest",
-              "runCommand": "npm run test"
+              "runCommand": "bun run test -- undefined"
             },
             "configurations": {},
             "parallelism": true,
@@ -68,7 +68,7 @@
             },
             "metadata": {
               "scriptContent": "eslint .",
-              "runCommand": "npm run lint"
+              "runCommand": "bun run lint -- undefined"
             },
             "configurations": {},
             "parallelism": true,
@@ -118,7 +118,7 @@
             },
             "metadata": {
               "scriptContent": "expo start",
-              "runCommand": "npm run start"
+              "runCommand": "bun run start -- undefined"
             },
             "configurations": {},
             "parallelism": true
@@ -130,7 +130,7 @@
             },
             "metadata": {
               "scriptContent": "node ./scripts/reset-project.js",
-              "runCommand": "npm run reset-project"
+              "runCommand": "bun run reset-project -- undefined"
             },
             "configurations": {},
             "parallelism": true
@@ -142,7 +142,7 @@
             },
             "metadata": {
               "scriptContent": "expo start --android",
-              "runCommand": "npm run android"
+              "runCommand": "bun run android -- undefined"
             },
             "configurations": {},
             "parallelism": true
@@ -154,7 +154,7 @@
             },
             "metadata": {
               "scriptContent": "expo start --ios",
-              "runCommand": "npm run ios"
+              "runCommand": "bun run ios -- undefined"
             },
             "configurations": {},
             "parallelism": true
@@ -166,7 +166,7 @@
             },
             "metadata": {
               "scriptContent": "expo start --web",
-              "runCommand": "npm run web"
+              "runCommand": "bun run web -- undefined"
             },
             "configurations": {},
             "parallelism": true
@@ -178,7 +178,7 @@
             },
             "metadata": {
               "scriptContent": "jest --watchAll",
-              "runCommand": "npm run test"
+              "runCommand": "bun run test -- undefined"
             },
             "configurations": {},
             "parallelism": true,
@@ -195,7 +195,7 @@
             },
             "metadata": {
               "scriptContent": "expo lint",
-              "runCommand": "npm run lint"
+              "runCommand": "bun run lint -- undefined"
             },
             "configurations": {},
             "parallelism": true,
@@ -217,5 +217,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1742722230329
+  "computedAt": 1742767405023
 }
