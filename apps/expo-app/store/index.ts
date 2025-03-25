@@ -21,6 +21,7 @@ export interface Settings {
   theme: "light" | "dark" | "system";
   darkMode: boolean;
   language: string;
+  onboardingCompleted: boolean;
 }
 
 export interface Segment {
@@ -58,7 +59,8 @@ export const store = observable({
   },
   settings: {
     darkMode: false,
-    language: "cs"
+    language: "cs",
+    onboardingCompleted: false
   }
 });
 

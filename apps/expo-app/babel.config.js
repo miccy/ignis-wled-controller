@@ -13,8 +13,7 @@ module.exports = api => {
           disableExtraction: process.env.NODE_ENV === "development"
         }
       ],
-
-      // Přidáváme resolver pro aliasy cest
+      "expo-router/babel",
       [
         "module-resolver",
         {
@@ -22,10 +21,7 @@ module.exports = api => {
             "@": "./"
           }
         }
-      ],
-
-      // NOTE: this is only necessary if you are using reanimated for animations
-      "react-native-reanimated/plugin"
+      ]
     ]
   };
 };

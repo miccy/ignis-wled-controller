@@ -24,7 +24,8 @@ export {
 
 export const unstable_settings = {
   // Ensure that reloading on `/modal` keeps a back button present.
-  initialRouteName: "(app)"
+  initialRouteName: "(onboarding)",
+  disableInitialRouteCheck: true
 };
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
@@ -36,34 +37,29 @@ export default observer(function RootLayout() {
     InterBold: require("@tamagui/font-inter/otf/Inter-Bold.otf")
   });
 
-  const theme = settings$.theme.get();
-  const isDarkMode =
-    theme === "dark" ||
-    (theme === "system" &&
-      /* zde by bylo detekování systémového tématu */ true);
+  const colorScheme = useColorScheme();
+
+  if (!interLoaded) {
+    return null;
+  }
 
   return (
-    <Providers>
+    <Provider>
       <RootLayoutNav />
-    </Providers>
+    </Provider>
   );
 });
-
-const Providers = ({ children }: { children: React.ReactNode }) => {
-  return <Provider>{children}</Provider>;
-};
 
 function RootLayoutNav() {
   const colorScheme = useColorScheme();
   const theme = useTheme();
+
   return (
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
-      <StatusBar
-        barStyle={colorScheme === "dark" ? "light-content" : "dark-content"}
-      />
-      <Stack>
-        <Stack.Screen name="(onboarding)" options={{ headerShown: false }} />
-        <Stack.Screen name="(app)" options={{ headerShown: false }} />
+      <StatusBar style={colorScheme === "dark" ? "light" : "dark"} />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="(onboarding)" />
+        <Stack.Screen name="(app)" />
         <Stack.Screen
           name="modal"
           options={{

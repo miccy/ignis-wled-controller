@@ -26,7 +26,10 @@ export default observer(function OnboardingLayout() {
             backgroundColor: "#121212"
           }
         }}
-      />
+      >
+        <Stack.Screen name="index" />
+        <Stack.Screen name="auth" />
+      </Stack>
     </SafeAreaProvider>
   );
 });
