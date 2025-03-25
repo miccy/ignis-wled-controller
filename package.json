@@ -12,10 +12,11 @@
   },
   "devDependencies": {
     "@nx/js": "latest",
-    "nx": "latest",
-    "prettier": "^3.5.3",
+    "biome": "^0.3.3",
     "husky": "^8.0.3",
-    "lint-staged": "^15.5.0"
+    "lint-staged": "^15.5.0",
+    "nx": "latest",
+    "prettier": "^3.5.3"
   },
   "engines": {
     "node": ">=18.0.0",

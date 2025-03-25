@@ -25,7 +25,8 @@ export {
 export const unstable_settings = {
   // Ensure that reloading on `/modal` keeps a back button present.
   initialRouteName: "(onboarding)",
-  disableInitialRouteCheck: true
+  disableInitialRouteCheck: true,
+  disableTutorial: true
 };
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
