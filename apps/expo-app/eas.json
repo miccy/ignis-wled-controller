@@ -6,25 +6,13 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "env": {
-        "EXPO_USE_YARN": "false"
-      },
-      "bun": "1.2.5"
+      "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal",
-      "env": {
-        "EXPO_USE_YARN": "false"
-      },
-      "bun": "1.2.5"
+      "distribution": "internal"
     },
     "production": {
-      "env": {
-        "EXPO_USE_YARN": "false"
-      },
-      "autoIncrement": true,
-      "bun": "1.2.5"
+      "autoIncrement": true
     }
   }
 }
