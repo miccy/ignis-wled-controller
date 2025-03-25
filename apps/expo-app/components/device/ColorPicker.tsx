@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, type FC } from "react";
 import { View, StyleSheet, TouchableOpacity, Text } from "react-native";
 import { ColorPicker, fromHsv, toHsv } from "react-native-color-picker";
-import { useDeviceStore } from "../../stores/device-store";
+import { devices$ } from "@/store";
 
 interface Props {
   segmentId: number;
@@ -9,39 +9,37 @@ interface Props {
   onColorChange?: (color: string) => void;
 }
 
-export const ColorPickerComponent: React.FC<Props> = ({
+export const ColorPickerComponent: FC<Props> = ({
   segmentId,
   initialColor = "#FF0000",
   onColorChange
 }) => {
   const [color, setColor] = useState(initialColor);
-  const { setColor: setSegmentColor, currentState } = useDeviceStore();
+  const deviceState =
+    devices$.deviceStates[devices$.selectedId.get()]?.state.get();
 
-  // Aktualizace barvy při změně segmentu v global state
+  // Aktualizace barvy při změně segmentu
   useEffect(() => {
-    if (currentState && currentState.seg) {
-      const segment = currentState.seg.find(s => s.id === segmentId);
-      if (segment && segment.col && segment.col[0]) {
+    if (deviceState?.seg) {
+      const segment = deviceState.seg.find(s => s.id === segmentId);
+      if (segment?.col?.[0]) {
         const [r, g, b] = segment.col[0];
         const hexColor = rgbToHex(r, g, b);
         setColor(hexColor);
       }
     }
-  }, [currentState, segmentId]);
+  }, [deviceState, segmentId]);
 
   const handleColorChange = (hsv: any) => {
     const newColor = fromHsv(hsv);
     setColor(newColor);
-
-    if (onColorChange) {
-      onColorChange(newColor);
-    }
+    onColorChange?.(newColor);
   };
 
   const handleColorSubmit = () => {
     const rgb = hexToRgb(color);
-    if (rgb) {
-      setSegmentColor(segmentId, [[rgb.r, rgb.g, rgb.b]]);
+    if (rgb && deviceState) {
+      // TODO: Implementovat setColor akci
     }
   };
 

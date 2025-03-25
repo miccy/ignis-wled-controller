@@ -1,11 +1,20 @@
-import { View } from 'react-native';
-import { Button, H1, Paragraph, XStack, YStack, Switch, Separator, Select } from 'tamagui';
-import { router } from 'expo-router';
-import { observer } from '@legendapp/state/react';
-import { settings$ } from '../../state';
-import { useTranslations } from '../../i18n/useTranslations';
-import { language$, Language } from '../../i18n/useTranslations';
-import { FontAwesome } from '@expo/vector-icons';
+import { View } from "react-native";
+import {
+  Button,
+  H1,
+  Paragraph,
+  XStack,
+  YStack,
+  Switch,
+  Separator,
+  Select
+} from "tamagui";
+import { router } from "expo-router";
+import { observer } from "@legendapp/state/react";
+import { settings$ } from "@/store";
+import { useTranslations } from "@/i18n/useTranslations";
+import { language$, type Language } from "@/i18n/useTranslations";
+import { FontAwesome } from "@expo/vector-icons";
 
 function SettingsScreen() {
   const t = useTranslations();
@@ -23,8 +32,8 @@ function SettingsScreen() {
   return (
     <YStack f={1} padding="$4" backgroundColor="$background">
       <XStack justifyContent="space-between" alignItems="center">
-        <Button 
-          icon={<FontAwesome name="arrow-left" size={18} color="white" />} 
+        <Button
+          icon={<FontAwesome name="arrow-left" size={18} color="white" />}
           onPress={() => router.back()}
         >
           Zpět
@@ -38,18 +47,18 @@ function SettingsScreen() {
       <YStack space="$4" padding="$2">
         <XStack justifyContent="space-between" alignItems="center">
           <Paragraph>{t.settings.darkMode}</Paragraph>
-          <Switch 
-            size="$3" 
-            checked={settings.darkMode} 
-            onCheckedChange={toggleDarkMode} 
+          <Switch
+            size="$3"
+            checked={settings.darkMode}
+            onCheckedChange={toggleDarkMode}
           />
         </XStack>
 
         <XStack justifyContent="space-between" alignItems="center">
           <Paragraph>{t.settings.language}</Paragraph>
-          <Select 
-            value={currentLanguage} 
-            onValueChange={(value) => changeLanguage(value as Language)}
+          <Select
+            value={currentLanguage}
+            onValueChange={value => changeLanguage(value as Language)}
             size="$3"
           >
             <Select.Trigger width={120}>
@@ -82,4 +91,4 @@ function SettingsScreen() {
   );
 }
 
-export default observer(SettingsScreen); 
+export default observer(SettingsScreen);

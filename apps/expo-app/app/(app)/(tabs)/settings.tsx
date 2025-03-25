@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet, Switch } from "react-native";
 import { observer } from "@legendapp/state/react";
 import { Motion } from "@legendapp/motion";
-import { settings$ } from "@/state/settings";
+import { settings$ } from "@/store";
 
 export default observer(function SettingsScreen() {
   const theme = settings$.theme.get();

@@ -2,9 +2,9 @@ import React from "react";
 import { Text, View, StyleSheet, TouchableOpacity } from "react-native";
 import { Motion } from "@legendapp/motion";
 import { observer } from "@legendapp/state/react";
-import { List } from "@legendapp/list";
-import { selectedDeviceState$ } from "../../state/devices";
-import { effects$ } from "../../state/effects";
+import { LegendList } from "@legendapp/list";
+import { selectedDeviceState$ } from "@/store";
+import { effects$, type Effect } from "@/store";
 
 interface EffectListProps {
   segmentId: number;
@@ -27,8 +27,8 @@ export const EffectList = observer(function EffectList({
     }
   };
 
-  const renderEffect = ({ item, index }: { item: string; index: number }) => {
-    const isSelected = currentEffectId === index;
+  const renderEffect = ({ item }: { item: Effect }) => {
+    const isSelected = currentEffectId === Number(item.id);
 
     return (
       <Motion.View
@@ -37,13 +37,13 @@ export const EffectList = observer(function EffectList({
         whileTap={{ scale: 0.98 }}
       >
         <TouchableOpacity
-          onPress={() => handleSelectEffect(index)}
+          onPress={() => handleSelectEffect(Number(item.id))}
           className="w-full"
         >
           <Text
             className={`text-base ${isSelected ? "font-bold text-white" : "text-gray-100"}`}
           >
-            {item}
+            {item.name}
           </Text>
         </TouchableOpacity>
       </Motion.View>
@@ -54,11 +54,12 @@ export const EffectList = observer(function EffectList({
     <View className="flex-1">
       <Text className="text-lg font-bold mb-2">Efekty</Text>
       {effectsList.length > 0 ? (
-        <List
+        <LegendList<Effect>
           data={effectsList}
           renderItem={renderEffect}
-          keyExtractor={(_, index) => `effect-${index}`}
+          keyExtractor={item => item.id}
           estimatedItemSize={50}
+          recycleItems={false}
         />
       ) : (
         <Text className="text-gray-400">Žádné efekty nejsou k dispozici</Text>

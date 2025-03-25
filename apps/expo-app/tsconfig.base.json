@@ -28,9 +28,7 @@
     "types": ["node"],
     "lib": ["dom", "esnext"],
     "paths": {
-      "@state/*": ["./state/*"],
-      "@components/*": ["./components/*"],
-      "@stores/*": ["./stores/*"]
+      "@/*": ["./*"]
     }
   },
   "exclude": ["_"],

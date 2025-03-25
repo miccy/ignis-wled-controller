@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 import { useRouter } from "expo-router";
 import { Motion } from "@legendapp/motion";
 import { observable } from "@legendapp/state";
-import { settings$ } from "@/state/settings";
+import { settings$ } from "@/store";
 
 export default function AuthScreen() {
   const router = useRouter();

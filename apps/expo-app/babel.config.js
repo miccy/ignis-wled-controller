@@ -18,9 +18,7 @@ module.exports = api => {
         "module-resolver",
         {
           alias: {
-            "@state": "./state",
-            "@components": "./components",
-            "@stores": "./stores"
+            "@": "./"
           }
         }
       ],

@@ -4,50 +4,35 @@ import {
   View,
   StyleSheet,
   Text,
-  Switch,
   ScrollView,
   ActivityIndicator,
   SafeAreaView,
   StatusBar
 } from "react-native";
 import { useLocalSearchParams, Stack, useRouter } from "expo-router";
-import Slider from "@react-native-community/slider";
-import { useDeviceStore } from "@stores/device-store";
-import { Tabs } from "@components/ui/Tabs";
-import { ColorPickerComponent } from "@components/device/ColorPicker";
-import { EffectList } from "@components/device/EffectList";
-import { SegmentEditor } from "@components/device/SegmentEditor";
+import { devices$ } from "@/store";
+import { ColorPickerComponent } from "@/components/device/ColorPicker";
+import { EffectList } from "@/components/device/EffectList";
 import { observer } from "@legendapp/state/react";
 import { Motion } from "@legendapp/motion";
-import { devices$, selectedDeviceState$ } from "@state/devices";
-import { BrightnessSlider } from "@components/device/BrightnessSlider";
+import { BrightnessSlider } from "@/components/device/BrightnessSlider";
 
 export default observer(function DeviceScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const router = useRouter();
-  const [activeTab, setActiveTab] = useState("color");
   const [selectedSegment, setSelectedSegment] = useState(0);
 
-  const {
-    selectDevice,
-    currentState,
-    isLoading,
-    error,
-    setBrightness,
-    setPower
-  } = useDeviceStore();
-
-  const device = devices$.list[id as string].get();
-  const deviceState = selectedDeviceState$.get();
+  const device = devices$.list.find(d => d.id === id)?.get();
+  const deviceState = devices$.deviceStates[id as string]?.state.get();
+  const isLoading = devices$.isLoading.get();
 
   useEffect(() => {
     if (id) {
-      selectDevice(id);
-      devices$.selectedId.set(id as string);
+      devices$.selectedId.set(id);
     }
-  }, [id, selectDevice]);
+  }, [id]);
 
-  if (isLoading && !currentState) {
+  if (isLoading && !deviceState) {
     return (
       <SafeAreaView className="flex-1 bg-gray-900 justify-center items-center">
         <Text className="text-white">Načítám zařízení...</Text>
@@ -55,11 +40,11 @@ export default observer(function DeviceScreen() {
     );
   }
 
-  if (error || !device) {
+  if (!device || !deviceState) {
     return (
       <SafeAreaView className="flex-1 bg-gray-900 justify-center items-center p-4">
         <Text className="text-red-400 text-center mb-4">
-          {error || "Zařízení nenalezeno"}
+          Zařízení nenalezeno
         </Text>
         <Motion.View
           className="bg-blue-600 px-6 py-3 rounded-full"
@@ -72,37 +57,6 @@ export default observer(function DeviceScreen() {
     );
   }
 
-  const handleBrightnessChange = (value: number) => {
-    setBrightness(Math.round(value));
-  };
-
-  const handlePowerToggle = (value: boolean) => {
-    setPower(value);
-  };
-
-  const renderTabContent = () => {
-    switch (activeTab) {
-      case "color":
-        return <ColorPickerComponent segmentId={selectedSegment} />;
-      case "effects":
-        return <EffectList segmentId={selectedSegment} />;
-      case "segments":
-        return (
-          <SegmentEditor
-            onSegmentSelect={setSelectedSegment}
-            selectedSegment={selectedSegment}
-          />
-        );
-      default:
-        return null;
-    }
-  };
-
-  const segments = currentState.seg.map(s => ({
-    id: s.id,
-    name: `Segment ${s.id}`
-  }));
-
   return (
     <SafeAreaView className="flex-1 bg-gray-900">
       <StatusBar barStyle="light-content" />
@@ -111,68 +65,62 @@ export default observer(function DeviceScreen() {
         <Text className="text-white text-2xl font-bold mb-2">
           {device.name}
         </Text>
-        <Text className="text-gray-400 mb-6">
-          {device.address} • v{device.version}
-        </Text>
+        <Text className="text-gray-400 mb-6">{device.ipAddress}</Text>
 
-        {deviceState ? (
-          <View className="space-y-6">
-            {/* Power toggle */}
-            <Motion.View
-              className={`p-4 rounded-xl ${deviceState.on ? "bg-blue-600" : "bg-gray-700"}`}
-              whileTap={{ scale: 0.98 }}
-              onTouchEnd={() => {
-                // Logika pro zapnutí/vypnutí bude implementována později
+        <View className="space-y-6">
+          {/* Power toggle */}
+          <Motion.View
+            className={`p-4 rounded-xl ${deviceState.state.on ? "bg-blue-600" : "bg-gray-700"}`}
+            whileTap={{ scale: 0.98 }}
+            onTouchEnd={() => {
+              // TODO: Implementovat toggle
+            }}
+          >
+            <Text className="text-white text-center text-lg font-medium">
+              {deviceState.state.on ? "Vypnout" : "Zapnout"}
+            </Text>
+          </Motion.View>
+
+          {/* Brightness slider */}
+          <View className="bg-gray-800 p-4 rounded-xl">
+            <Text className="text-white mb-2">
+              Jas: {deviceState.state.bri}
+            </Text>
+            <BrightnessSlider
+              value={deviceState.state.bri}
+              onChange={value => {
+                // TODO: Implementovat změnu jasu
               }}
+            />
+          </View>
+
+          {/* Controls */}
+          <View className="flex-row justify-between">
+            <Motion.View
+              className="flex-1 mr-2 bg-gray-800 p-4 rounded-xl items-center"
+              whileTap={{ scale: 0.95 }}
+              onTouchEnd={() => router.push(`/device/${id}/colors`)}
             >
-              <Text className="text-white text-center text-lg font-medium">
-                {deviceState.on ? "Vypnout" : "Zapnout"}
-              </Text>
+              <Text className="text-white">Barvy</Text>
             </Motion.View>
 
-            {/* Brightness slider */}
-            <View className="bg-gray-800 p-4 rounded-xl">
-              <Text className="text-white mb-2">Jas: {deviceState.bri}</Text>
-              <BrightnessSlider
-                value={deviceState.bri}
-                onChange={value => {
-                  // Logika pro změnu jasu bude implementována později
-                }}
-              />
-            </View>
+            <Motion.View
+              className="flex-1 mx-1 bg-gray-800 p-4 rounded-xl items-center"
+              whileTap={{ scale: 0.95 }}
+              onTouchEnd={() => router.push(`/device/${id}/effects`)}
+            >
+              <Text className="text-white">Efekty</Text>
+            </Motion.View>
 
-            {/* Controls */}
-            <View className="flex-row justify-between">
-              <Motion.View
-                className="flex-1 mr-2 bg-gray-800 p-4 rounded-xl items-center"
-                whileTap={{ scale: 0.95 }}
-                onTouchEnd={() => router.push(`/device/colors?id=${id}`)}
-              >
-                <Text className="text-white">Barvy</Text>
-              </Motion.View>
-
-              <Motion.View
-                className="flex-1 mx-1 bg-gray-800 p-4 rounded-xl items-center"
-                whileTap={{ scale: 0.95 }}
-                onTouchEnd={() => router.push(`/device/effects?id=${id}`)}
-              >
-                <Text className="text-white">Efekty</Text>
-              </Motion.View>
-
-              <Motion.View
-                className="flex-1 ml-2 bg-gray-800 p-4 rounded-xl items-center"
-                whileTap={{ scale: 0.95 }}
-                onTouchEnd={() => router.push(`/device/segments?id=${id}`)}
-              >
-                <Text className="text-white">Segmenty</Text>
-              </Motion.View>
-            </View>
+            <Motion.View
+              className="flex-1 ml-2 bg-gray-800 p-4 rounded-xl items-center"
+              whileTap={{ scale: 0.95 }}
+              onTouchEnd={() => router.push(`/device/${id}/segments`)}
+            >
+              <Text className="text-white">Segmenty</Text>
+            </Motion.View>
           </View>
-        ) : (
-          <View className="flex-1 justify-center items-center">
-            <Text className="text-gray-400">Nemám data o zařízení</Text>
-          </View>
-        )}
+        </View>
       </View>
     </SafeAreaView>
   );

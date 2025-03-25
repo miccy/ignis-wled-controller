@@ -3,10 +3,10 @@ import React from "react";
 import { View, Text, StyleSheet, SafeAreaView, StatusBar } from "react-native";
 import { observer } from "@legendapp/state/react";
 import { Motion } from "@legendapp/motion";
-import { List } from "@legendapp/list";
+import { LegendList } from "@legendapp/list";
 import { Link } from "expo-router";
-import { devices$ } from "@/state/devices";
-import { useDebouncedCallback } from "@/lib/hooks/useDebounce";
+import { devices$ } from "@/store";
+import { useDebouncedCallback } from "@/hooks/useDebounce";
 
 export default observer(function DevicesScreen() {
   const devicesList = devices$.list.get();
@@ -76,7 +76,7 @@ export default observer(function DevicesScreen() {
             </Motion.View>
           </View>
         ) : (
-          <List
+          <LegendList
             data={devicesArray}
             renderItem={renderDeviceItem}
             keyExtractor={item => item.id}
