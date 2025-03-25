@@ -15,11 +15,9 @@ import {
 } from "tamagui";
 import { router, useLocalSearchParams } from "expo-router";
 import { observer } from "@legendapp/state/react";
-import { devices$ } from "@/state/devices";
-import { effects$ } from "@/state/effects";
+import { devices$, effects$ } from "@/store";
 import { useTranslations } from "@/i18n/useTranslations";
 import { FontAwesome } from "@expo/vector-icons";
-import { State } from "@/state/devices";
 
 function DeviceScreen() {
   const t = useTranslations();

@@ -1,6 +1,6 @@
-// WLED API implementace
-import { WLED_API_ENDPOINTS, WLED_API_METHODS } from "../constants/api";
-import type { Device, State, Info, Effects, Palettes } from "../types/wled";
+// TODO:WLED API implementace
+import { WLED_API_ENDPOINTS, WLED_API_METHODS } from "@/constants/api"; // TODO: přidat konstanty
+import type { Device, State, Info, Effects, Palettes } from "@/types/wled";
 
 export class WLEDApiClient {
   constructor(private baseUrl: string) {}

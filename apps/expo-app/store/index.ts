@@ -18,6 +18,7 @@ export interface Effect {
 }
 
 export interface Settings {
+  theme: "light" | "dark" | "system";
   darkMode: boolean;
   language: string;
 }

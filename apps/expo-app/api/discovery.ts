@@ -1,7 +1,8 @@
+import * as Network from "expo-network"; // TODO: použít expo-network kde to bude možné
 import NetInfo from "@react-native-community/netinfo";
 import { Platform } from "react-native";
-import { Device } from "../types/wled";
-import { MDNS_SERVICE_TYPE, FALLBACK_SCAN_IPS } from "../constants/network";
+import { Device } from "@/types/wled"; // TODO: přidat typy
+import { MDNS_SERVICE_TYPE, FALLBACK_SCAN_IPS } from "@/constants/network"; // TODO: přidat konstanty
 
 export class WLEDDiscovery {
   // Vyhledání zařízení pomocí mDNS (pro Android a iOS)

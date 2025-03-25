@@ -6,7 +6,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 import { observer } from "@legendapp/state/react";
 import { configureMotion } from "@legendapp/motion";
-import { settings$ } from "@state/settings";
+import { settings$ } from "@/store";
 import { useTheme } from "tamagui";
 import { Provider } from "../components/Provider";
 import { useColorScheme } from "react-native";

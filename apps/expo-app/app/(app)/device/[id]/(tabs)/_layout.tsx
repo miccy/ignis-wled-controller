@@ -2,8 +2,7 @@ import React from "react";
 import { Tabs, useLocalSearchParams } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { observer } from "@legendapp/state/react";
-import { devices$ } from "@/state/devices";
-import { settings$ } from "@/state/settings";
+import { devices$, settings$ } from "@/store";
 
 export default observer(function DeviceTabsLayout() {
   const { id } = useLocalSearchParams<{ id: string }>();
