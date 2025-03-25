@@ -1,44 +1,38 @@
 import React, { useState, useEffect, type FC } from "react";
-import { View, StyleSheet, TouchableOpacity, Text } from "react-native";
-import { ColorPicker, fromHsv, toHsv } from "react-native-color-picker";
-import { devices$ } from "@/store";
+import { Stack } from "tamagui";
+import type { Segment } from "@/store";
+import ColorPicker from "reanimated-color-picker";
+import { View } from "react-native";
 
 interface Props {
-  segmentId: number;
-  initialColor?: string; // Hex barva
-  onColorChange?: (color: string) => void;
+  selectedSegment: number;
+  onSegmentChange: (segmentId: number) => void;
+  segments: Segment[];
 }
 
 export const ColorPickerComponent: FC<Props> = ({
-  segmentId,
-  initialColor = "#FF0000",
-  onColorChange
+  selectedSegment,
+  segments
 }) => {
-  const [color, setColor] = useState(initialColor);
-  const deviceState =
-    devices$.deviceStates[devices$.selectedId.get()]?.state.get();
+  const currentSegment = segments[selectedSegment];
+  const [color, setColor] = useState("#FF0000");
 
   // Aktualizace barvy při změně segmentu
   useEffect(() => {
-    if (deviceState?.seg) {
-      const segment = deviceState.seg.find(s => s.id === segmentId);
-      if (segment?.col?.[0]) {
-        const [r, g, b] = segment.col[0];
-        const hexColor = rgbToHex(r, g, b);
-        setColor(hexColor);
-      }
+    if (currentSegment?.col?.[0]) {
+      const [r, g, b] = currentSegment.col[0];
+      const hexColor = rgbToHex(r, g, b);
+      setColor(hexColor);
     }
-  }, [deviceState, segmentId]);
+  }, [currentSegment]);
 
-  const handleColorChange = (hsv: any) => {
-    const newColor = fromHsv(hsv);
-    setColor(newColor);
-    onColorChange?.(newColor);
+  const handleColorChange = ({ hex }: { hex: string }) => {
+    setColor(hex);
   };
 
-  const handleColorSubmit = () => {
-    const rgb = hexToRgb(color);
-    if (rgb && deviceState) {
+  const handleColorComplete = ({ hex }: { hex: string }) => {
+    const rgb = hexToRgb(hex);
+    if (rgb && currentSegment) {
       // TODO: Implementovat setColor akci
     }
   };
@@ -60,44 +54,27 @@ export const ColorPickerComponent: FC<Props> = ({
     const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
     return result
       ? {
-          r: parseInt(result[1], 16),
-          g: parseInt(result[2], 16),
-          b: parseInt(result[3], 16)
+          r: Number.parseInt(result[1], 16),
+          g: Number.parseInt(result[2], 16),
+          b: Number.parseInt(result[3], 16)
         }
       : null;
   };
 
   return (
-    <View style={styles.container}>
-      <ColorPicker
-        color={color}
-        onColorChange={handleColorChange}
-        style={styles.picker}
-      />
-      <TouchableOpacity style={styles.button} onPress={handleColorSubmit}>
-        <Text style={styles.buttonText}>Použít barvu</Text>
-      </TouchableOpacity>
-    </View>
+    <Stack>
+      <View style={{ height: 300 }}>
+        <ColorPicker
+          value={color}
+          onComplete={handleColorComplete}
+          onChange={handleColorChange}
+          boundedThumb
+          style={{
+            width: "100%",
+            height: "100%"
+          }}
+        />
+      </View>
+    </Stack>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    padding: 20,
-    height: 350
-  },
-  picker: {
-    flex: 1
-  },
-  button: {
-    backgroundColor: "#007AFF",
-    padding: 15,
-    borderRadius: 8,
-    marginTop: 15,
-    alignItems: "center"
-  },
-  buttonText: {
-    color: "white",
-    fontWeight: "bold"
-  }
-});

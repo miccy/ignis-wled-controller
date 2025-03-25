@@ -24,20 +24,19 @@ export interface Settings {
 }
 
 export interface Segment {
-  id?: string;
+  id: number;
   fx: number;
   pal: number;
+  col: number[][];
 }
 
 export interface DeviceState {
-  state: {
-    on: boolean;
-    bri: number;
-    seg: Segment[];
-    info?: {
-      effects?: string[];
-      palettes?: string[];
-    };
+  on: boolean;
+  bri: number;
+  seg: Segment[];
+  info?: {
+    effects?: string[];
+    palettes?: string[];
   };
 }
 
@@ -47,7 +46,7 @@ export const store = observable({
     list: [] as Device[],
     selectedId: null as string | null,
     selectedDevice: null as Device | null,
-    deviceStates: {} as Record<string, { state: DeviceState }>,
+    deviceStates: {} as Record<string, DeviceState>,
     isLoading: false,
     error: null as string | null
   },

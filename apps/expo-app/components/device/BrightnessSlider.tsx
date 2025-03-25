@@ -1,54 +1,37 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
-import { Motion } from "@legendapp/motion";
-import Slider from "@react-native-community/slider";
-import { observer } from "@legendapp/state/react";
+import { View, StyleSheet } from "react-native";
+import { Slider } from "tamagui";
 
-interface BrightnessSliderProps {
+export interface BrightnessSliderProps {
   value: number;
-  onChange: (value: number) => void;
+  onValueChange: (value: number) => void;
 }
 
-export const BrightnessSlider = observer(function BrightnessSlider({
+export const BrightnessSlider: React.FC<BrightnessSliderProps> = ({
   value,
-  onChange
-}: BrightnessSliderProps) {
+  onValueChange
+}) => {
   return (
     <View style={styles.container}>
       <Slider
-        minimumValue={0}
-        maximumValue={255}
+        defaultValue={[value]}
+        min={0}
+        max={255}
         step={1}
-        value={value}
-        onValueChange={onChange}
-        minimumTrackTintColor="#3b82f6"
-        maximumTrackTintColor="#4b5563"
-        thumbTintColor="#60a5fa"
-        style={styles.slider}
-      />
-      <View style={styles.labelsContainer}>
-        <Text style={styles.label}>0</Text>
-        <Text style={styles.label}>255</Text>
-      </View>
+        onValueChange={([val]) => onValueChange(val)}
+      >
+        <Slider.Track backgroundColor="$gray8">
+          <Slider.TrackActive backgroundColor="$blue8" />
+        </Slider.Track>
+        <Slider.Thumb backgroundColor="$blue10" />
+      </Slider>
     </View>
   );
-});
+};
 
 const styles = StyleSheet.create({
   container: {
-    width: '100%',
-  },
-  slider: {
-    width: '100%',
-    height: 40,
-  },
-  labelsContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    paddingHorizontal: 4,
-  },
-  label: {
-    color: '#888888',
-    fontSize: 12,
-  },
+    width: "100%",
+    height: 40
+  }
 });

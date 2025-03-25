@@ -1,8 +1,9 @@
 module.exports = api => {
   api.cache(true);
   return {
-    presets: [["babel-preset-expo", { jsxRuntime: "automatic" }]],
+    presets: ["babel-preset-expo"],
     plugins: [
+      "transform-inline-environment-variables",
       [
         "@tamagui/babel-plugin",
         {
