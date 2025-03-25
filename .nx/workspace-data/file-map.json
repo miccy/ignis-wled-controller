@@ -1,307 +1,10 @@
 {
   "version": "6.0",
-  "nxVersion": "20.6.2",
+  "nxVersion": "20.6.3",
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
-    "projectFileMap": {
-      "expo-app": [
-        {
-          "file": "apps/expo-app/.gitignore",
-          "hash": "6206751267077242256"
-        },
-        {
-          "file": "apps/expo-app/.vscode/settings.json",
-          "hash": "8607336903995612729"
-        },
-        {
-          "file": "apps/expo-app/README.md",
-          "hash": "110281590382938117"
-        },
-        {
-          "file": "apps/expo-app/api/discovery.ts",
-          "hash": "10937518636987284011"
-        },
-        {
-          "file": "apps/expo-app/api/wled-api.ts",
-          "hash": "15855263659451659244"
-        },
-        {
-          "file": "apps/expo-app/app.json",
-          "hash": "17140726529391696587"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/(tabs)/_layout.tsx",
-          "hash": "7948307144449496187"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/(tabs)/guide.tsx",
-          "hash": "14015587261106180651"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/(tabs)/index.tsx",
-          "hash": "3491997047881647074"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/(tabs)/settings.tsx",
-          "hash": "15385417046277176944"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/_layout.tsx",
-          "hash": "12234494333636414651"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/device/[id].tsx",
-          "hash": "12719634249500913971"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/device/[id]/(tabs)/_layout.tsx",
-          "hash": "18318091609699168793"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/device/[id]/(tabs)/colors.tsx",
-          "hash": "14061357016365234820"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/device/[id]/(tabs)/effects.tsx",
-          "hash": "12912247307240422256"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/device/[id]/(tabs)/index.tsx",
-          "hash": "14492658599304067516"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/device/[id]/(tabs)/segments.tsx",
-          "hash": "3241675891154160540"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/device/[id]/_layout.tsx",
-          "hash": "3540429451712779717"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/explore.tsx",
-          "hash": "2524648326927364666"
-        },
-        {
-          "file": "apps/expo-app/app/(app)/index.tsx",
-          "hash": "15403949852998121994"
-        },
-        {
-          "file": "apps/expo-app/app/(onboarding)/[...rest].tsx",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/expo-app/app/(onboarding)/_layout.tsx",
-          "hash": "857783230400396077"
-        },
-        {
-          "file": "apps/expo-app/app/(onboarding)/auth.tsx",
-          "hash": "5970279369973906361"
-        },
-        {
-          "file": "apps/expo-app/app/(onboarding)/index.tsx",
-          "hash": "9583815558367430721"
-        },
-        {
-          "file": "apps/expo-app/app/+not-found.tsx",
-          "hash": "5574293347969992986"
-        },
-        {
-          "file": "apps/expo-app/app/_layout.tsx",
-          "hash": "5144172380816653083"
-        },
-        {
-          "file": "apps/expo-app/app/devices/[id].tsx",
-          "hash": "9640484404567233821"
-        },
-        {
-          "file": "apps/expo-app/app/devices/index.tsx",
-          "hash": "734413635770408292"
-        },
-        {
-          "file": "apps/expo-app/app/effects/index.tsx",
-          "hash": "790015581926914453"
-        },
-        {
-          "file": "apps/expo-app/app/index.tsx",
-          "hash": "17159880034880223363"
-        },
-        {
-          "file": "apps/expo-app/app/settings/index.tsx",
-          "hash": "5172469125782493335"
-        },
-        {
-          "file": "apps/expo-app/assets/fonts/SpaceMono-Regular.ttf",
-          "hash": "8316399838606165836"
-        },
-        {
-          "file": "apps/expo-app/assets/images/adaptive-icon.png",
-          "hash": "16102135492459408350"
-        },
-        {
-          "file": "apps/expo-app/assets/images/favicon.png",
-          "hash": "10556792184362654649"
-        },
-        {
-          "file": "apps/expo-app/assets/images/icon.png",
-          "hash": "14252482080276080187"
-        },
-        {
-          "file": "apps/expo-app/assets/images/partial-react-logo.png",
-          "hash": "17138856618252336249"
-        },
-        {
-          "file": "apps/expo-app/assets/images/react-logo.png",
-          "hash": "12800764183471362565"
-        },
-        {
-          "file": "apps/expo-app/assets/images/react-logo@2x.png",
-          "hash": "10620144842436275618"
-        },
-        {
-          "file": "apps/expo-app/assets/images/react-logo@3x.png",
-          "hash": "12902748134652534090"
-        },
-        {
-          "file": "apps/expo-app/assets/images/splash-icon.png",
-          "hash": "16102135492459408350"
-        },
-        {
-          "file": "apps/expo-app/components/Collapsible.tsx",
-          "hash": "13022662281300900720"
-        },
-        {
-          "file": "apps/expo-app/components/ExternalLink.tsx",
-          "hash": "9955463845284556887"
-        },
-        {
-          "file": "apps/expo-app/components/HapticTab.tsx",
-          "hash": "5533600884243926710"
-        },
-        {
-          "file": "apps/expo-app/components/HelloWave.tsx",
-          "hash": "18056693240395022600"
-        },
-        {
-          "file": "apps/expo-app/components/ParallaxScrollView.tsx",
-          "hash": "9656228385101044248"
-        },
-        {
-          "file": "apps/expo-app/components/ThemedText.tsx",
-          "hash": "8838916204566732482"
-        },
-        {
-          "file": "apps/expo-app/components/ThemedView.tsx",
-          "hash": "12328710297602153136"
-        },
-        {
-          "file": "apps/expo-app/components/__tests__/ThemedText-test.tsx",
-          "hash": "5460384641768239059"
-        },
-        {
-          "file": "apps/expo-app/components/__tests__/__snapshots__/ThemedText-test.tsx.snap",
-          "hash": "7137039748800291722"
-        },
-        {
-          "file": "apps/expo-app/components/device/BrightnessSlider.tsx",
-          "hash": "4908246695261763729"
-        },
-        {
-          "file": "apps/expo-app/components/device/ColorPicker.tsx",
-          "hash": "7532996026572227647"
-        },
-        {
-          "file": "apps/expo-app/components/device/EffectList.tsx",
-          "hash": "10675941580621974937"
-        },
-        {
-          "file": "apps/expo-app/components/ui/IconSymbol.ios.tsx",
-          "hash": "16600331612590654066"
-        },
-        {
-          "file": "apps/expo-app/components/ui/IconSymbol.tsx",
-          "hash": "9898782085465924044"
-        },
-        {
-          "file": "apps/expo-app/components/ui/TabBarBackground.ios.tsx",
-          "hash": "4782676225326082304"
-        },
-        {
-          "file": "apps/expo-app/components/ui/TabBarBackground.tsx",
-          "hash": "373112203961315913"
-        },
-        {
-          "file": "apps/expo-app/constants/Colors.ts",
-          "hash": "11938689378131257524"
-        },
-        {
-          "file": "apps/expo-app/hooks/useColorScheme.ts",
-          "hash": "9854634842886202740"
-        },
-        {
-          "file": "apps/expo-app/hooks/useColorScheme.web.ts",
-          "hash": "14806177383020038067"
-        },
-        {
-          "file": "apps/expo-app/hooks/useThemeColor.ts",
-          "hash": "7251580703332788999"
-        },
-        {
-          "file": "apps/expo-app/i18n/useTranslations.ts",
-          "hash": "16274347333445214251"
-        },
-        {
-          "file": "apps/expo-app/package.json",
-          "hash": "5039227075883880281"
-        },
-        {
-          "file": "apps/expo-app/scripts/reset-project.js",
-          "hash": "912029883397838943"
-        },
-        {
-          "file": "apps/expo-app/state/devices.ts",
-          "hash": "15871576782401709291"
-        },
-        {
-          "file": "apps/expo-app/state/effects.ts",
-          "hash": "4497612154324379633"
-        },
-        {
-          "file": "apps/expo-app/state/index.ts",
-          "hash": "17568360166365300522"
-        },
-        {
-          "file": "apps/expo-app/state/settings.ts",
-          "hash": "753753090955685505"
-        },
-        {
-          "file": "apps/expo-app/stores/device-store.ts",
-          "hash": "13838766205580051777"
-        },
-        {
-          "file": "apps/expo-app/tamagui.config.ts",
-          "hash": "3039691609952794587"
-        },
-        {
-          "file": "apps/expo-app/tsconfig.json",
-          "hash": "13453316570448027213"
-        },
-        {
-          "file": "apps/expo-app/types/wled.ts",
-          "hash": "1869638640442325577"
-        }
-      ],
-      "shared": [
-        {
-          "file": "packages/shared/README.md",
-          "hash": "15045879893977529826"
-        },
-        {
-          "file": "packages/shared/package.json",
-          "hash": "935107095495094013"
-        }
-      ]
-    },
+    "projectFileMap": {},
     "nonProjectFiles": [
       {
         "file": ".gitignore",
@@ -1148,6 +851,330 @@
         "hash": "16686269578319838568"
       },
       {
+        "file": "apps/expo-app/.gitignore",
+        "hash": "6206751267077242256"
+      },
+      {
+        "file": "apps/expo-app/.npmrc",
+        "hash": "9342345702992256029"
+      },
+      {
+        "file": "apps/expo-app/.tamagui/tamagui-components.config.cjs",
+        "hash": "12579747900659103974"
+      },
+      {
+        "file": "apps/expo-app/.tamagui/tamagui.config.cjs",
+        "hash": "17476839613103415802"
+      },
+      {
+        "file": "apps/expo-app/.tamagui/tamagui.config.json",
+        "hash": "14991136359778157409"
+      },
+      {
+        "file": "apps/expo-app/.vscode/settings.json",
+        "hash": "8607336903995612729"
+      },
+      {
+        "file": "apps/expo-app/README.md",
+        "hash": "110281590382938117"
+      },
+      {
+        "file": "apps/expo-app/api/discovery.ts",
+        "hash": "1754211636643241827"
+      },
+      {
+        "file": "apps/expo-app/api/wled-api.ts",
+        "hash": "17305014874671169827"
+      },
+      {
+        "file": "apps/expo-app/app.json",
+        "hash": "11295067082001449166"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/(tabs)/_layout.tsx",
+        "hash": "16685315392266782508"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/(tabs)/guide.tsx",
+        "hash": "14015587261106180651"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/(tabs)/index.tsx",
+        "hash": "10609561013193824347"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/(tabs)/settings.tsx",
+        "hash": "8414697195549150929"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/_layout.tsx",
+        "hash": "17165962251518390666"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/device/[id].tsx",
+        "hash": "17453605628955417643"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/device/[id]/(tabs)/_layout.tsx",
+        "hash": "1330356226805172606"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/device/[id]/(tabs)/colors.tsx",
+        "hash": "12910659280789699885"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/device/[id]/(tabs)/effects.tsx",
+        "hash": "14460133947444985215"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/device/[id]/(tabs)/index.tsx",
+        "hash": "18145869576735456958"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/device/[id]/(tabs)/segments.tsx",
+        "hash": "6748483145202343865"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/device/[id]/_layout.tsx",
+        "hash": "3885053678975234104"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/explore.tsx",
+        "hash": "2524648326927364666"
+      },
+      {
+        "file": "apps/expo-app/app/(app)/index.tsx",
+        "hash": "10554263684286058702"
+      },
+      {
+        "file": "apps/expo-app/app/(onboarding)/[...rest].tsx",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/expo-app/app/(onboarding)/_layout.tsx",
+        "hash": "6404988186305077528"
+      },
+      {
+        "file": "apps/expo-app/app/(onboarding)/auth.tsx",
+        "hash": "13083975229872017875"
+      },
+      {
+        "file": "apps/expo-app/app/(onboarding)/index.tsx",
+        "hash": "5551033885404008344"
+      },
+      {
+        "file": "apps/expo-app/app/+html.tsx",
+        "hash": "14163015529521942119"
+      },
+      {
+        "file": "apps/expo-app/app/+not-found.tsx",
+        "hash": "5671804348288281502"
+      },
+      {
+        "file": "apps/expo-app/app/_layout.tsx",
+        "hash": "16642265996812744813"
+      },
+      {
+        "file": "apps/expo-app/app/devices/[id].tsx",
+        "hash": "11682585578750417022"
+      },
+      {
+        "file": "apps/expo-app/app/devices/index.tsx",
+        "hash": "14484215684835571400"
+      },
+      {
+        "file": "apps/expo-app/app/effects/index.tsx",
+        "hash": "15753316252596374709"
+      },
+      {
+        "file": "apps/expo-app/app/index.tsx",
+        "hash": "16737768612955919779"
+      },
+      {
+        "file": "apps/expo-app/app/settings/index.tsx",
+        "hash": "18146049643276513538"
+      },
+      {
+        "file": "apps/expo-app/assets/fonts/SpaceMono-Regular.ttf",
+        "hash": "8316399838606165836"
+      },
+      {
+        "file": "apps/expo-app/assets/images/adaptive-icon.png",
+        "hash": "16102135492459408350"
+      },
+      {
+        "file": "apps/expo-app/assets/images/favicon.png",
+        "hash": "10556792184362654649"
+      },
+      {
+        "file": "apps/expo-app/assets/images/icon.png",
+        "hash": "14252482080276080187"
+      },
+      {
+        "file": "apps/expo-app/assets/images/partial-react-logo.png",
+        "hash": "17138856618252336249"
+      },
+      {
+        "file": "apps/expo-app/assets/images/react-logo.png",
+        "hash": "12800764183471362565"
+      },
+      {
+        "file": "apps/expo-app/assets/images/react-logo@2x.png",
+        "hash": "10620144842436275618"
+      },
+      {
+        "file": "apps/expo-app/assets/images/react-logo@3x.png",
+        "hash": "12902748134652534090"
+      },
+      {
+        "file": "apps/expo-app/assets/images/splash-icon.png",
+        "hash": "16102135492459408350"
+      },
+      {
+        "file": "apps/expo-app/babel.config.js",
+        "hash": "7885301102849487185"
+      },
+      {
+        "file": "apps/expo-app/components/Collapsible.tsx",
+        "hash": "13022662281300900720"
+      },
+      {
+        "file": "apps/expo-app/components/CurrentToast.tsx",
+        "hash": "3272927782491981725"
+      },
+      {
+        "file": "apps/expo-app/components/ExternalLink.tsx",
+        "hash": "2014869042637942880"
+      },
+      {
+        "file": "apps/expo-app/components/HapticTab.tsx",
+        "hash": "12000184295101378637"
+      },
+      {
+        "file": "apps/expo-app/components/HelloWave.tsx",
+        "hash": "18056693240395022600"
+      },
+      {
+        "file": "apps/expo-app/components/ParallaxScrollView.tsx",
+        "hash": "9656228385101044248"
+      },
+      {
+        "file": "apps/expo-app/components/Provider.tsx",
+        "hash": "12451932436601446093"
+      },
+      {
+        "file": "apps/expo-app/components/ThemedText.tsx",
+        "hash": "8838916204566732482"
+      },
+      {
+        "file": "apps/expo-app/components/ThemedView.tsx",
+        "hash": "4685267695914741704"
+      },
+      {
+        "file": "apps/expo-app/components/__tests__/ThemedText-test.tsx",
+        "hash": "5460384641768239059"
+      },
+      {
+        "file": "apps/expo-app/components/__tests__/__snapshots__/ThemedText-test.tsx.snap",
+        "hash": "7137039748800291722"
+      },
+      {
+        "file": "apps/expo-app/components/device/BrightnessSlider.tsx",
+        "hash": "8977622953223386640"
+      },
+      {
+        "file": "apps/expo-app/components/device/ColorPicker.tsx",
+        "hash": "11504728152656890293"
+      },
+      {
+        "file": "apps/expo-app/components/device/EffectList.tsx",
+        "hash": "3771224826202688519"
+      },
+      {
+        "file": "apps/expo-app/components/ui/IconSymbol.ios.tsx",
+        "hash": "16600331612590654066"
+      },
+      {
+        "file": "apps/expo-app/components/ui/IconSymbol.tsx",
+        "hash": "9898782085465924044"
+      },
+      {
+        "file": "apps/expo-app/components/ui/TabBarBackground.ios.tsx",
+        "hash": "85885661978724382"
+      },
+      {
+        "file": "apps/expo-app/components/ui/TabBarBackground.tsx",
+        "hash": "373112203961315913"
+      },
+      {
+        "file": "apps/expo-app/constants/Colors.ts",
+        "hash": "11938689378131257524"
+      },
+      {
+        "file": "apps/expo-app/eas.json",
+        "hash": "8988406116453333109"
+      },
+      {
+        "file": "apps/expo-app/hooks/useColorScheme.ts",
+        "hash": "9854634842886202740"
+      },
+      {
+        "file": "apps/expo-app/hooks/useColorScheme.web.ts",
+        "hash": "14806177383020038067"
+      },
+      {
+        "file": "apps/expo-app/hooks/useDebounce.ts",
+        "hash": "7162189249992421319"
+      },
+      {
+        "file": "apps/expo-app/hooks/useThemeColor.ts",
+        "hash": "7251580703332788999"
+      },
+      {
+        "file": "apps/expo-app/i18n/useTranslations.ts",
+        "hash": "16274347333445214251"
+      },
+      {
+        "file": "apps/expo-app/metro.config.js",
+        "hash": "8839251632421296177"
+      },
+      {
+        "file": "apps/expo-app/package.json",
+        "hash": "7154687615999819166"
+      },
+      {
+        "file": "apps/expo-app/scripts/reset-project.js",
+        "hash": "912029883397838943"
+      },
+      {
+        "file": "apps/expo-app/store/config.ts",
+        "hash": "9646136195709548635"
+      },
+      {
+        "file": "apps/expo-app/store/index.ts",
+        "hash": "10980433568369399696"
+      },
+      {
+        "file": "apps/expo-app/tamagui-web.css",
+        "hash": "11691747103395185130"
+      },
+      {
+        "file": "apps/expo-app/tamagui.config.ts",
+        "hash": "15631045647434944527"
+      },
+      {
+        "file": "apps/expo-app/tsconfig.base.json",
+        "hash": "4879441446711870091"
+      },
+      {
+        "file": "apps/expo-app/tsconfig.json",
+        "hash": "10118859319297164735"
+      },
+      {
+        "file": "apps/expo-app/types/wled.d.ts",
+        "hash": "1869638640442325577"
+      },
+      {
         "file": "apps/ios-native/LICENSE",
         "hash": "15553496959705771468"
       },
@@ -1414,6 +1441,10 @@
       {
         "file": "apps/ios-native/wled-native/wled_native_data.xcdatamodeld/wled_native_data.xcdatamodel/contents",
         "hash": "4333541478459077701"
+      },
+      {
+        "file": "biome.json",
+        "hash": "3818021442197643380"
       },
       {
         "file": "external/README.md",
@@ -3277,11 +3308,19 @@
       },
       {
         "file": "package.json",
-        "hash": "11656115497265043536"
+        "hash": "7619525082650834218"
       },
       {
         "file": "packages/README.md",
         "hash": "8336707698588599769"
+      },
+      {
+        "file": "packages/shared/README.md",
+        "hash": "15045879893977529826"
+      },
+      {
+        "file": "packages/shared/package.json",
+        "hash": "935107095495094013"
       }
     ]
   }

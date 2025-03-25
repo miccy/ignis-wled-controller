@@ -1,15 +1,30 @@
 {
   "cli": {
-    "version": ">= 7.0.0"
+    "version": ">= 7.0.0",
+    "appVersionSource": "remote"
   },
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "EXPO_USE_YARN": "false"
+      },
+      "bun": "1.2.5"
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "EXPO_USE_YARN": "false"
+      },
+      "bun": "1.2.5"
     },
-    "production": {}
+    "production": {
+      "env": {
+        "EXPO_USE_YARN": "false"
+      },
+      "autoIncrement": true,
+      "bun": "1.2.5"
+    }
   }
 }
