@@ -2,6 +2,7 @@
   "expo": {
     "name": "expo-app",
     "slug": "expo-app",
+    "owner": "miccy.dev",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,13 +16,15 @@
     "assetBundlePatterns": ["**/*"],
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.miccy.ignis.wledcontroller"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "dev.miccy.ignis.wledcontroller"
     },
     "web": {
       "bundler": "metro",
@@ -44,7 +47,16 @@
       "expo-localization"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "53484995-552d-43f9-aa74-7a06f842e90b"
+      }
     }
   }
 }

@@ -28,6 +28,7 @@
     "@tamagui/babel-plugin": "^1.125.29",
     "@tamagui/config": "^1.125.29",
     "@tamagui/font-inter": "^1.125.29",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.4",
     "burnt": "^0.13.0",
     "expo": "^52.0.40",
     "expo-blur": "~14.0.3",
